@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,17 +22,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGX-Fp-72s" customClass="ZMGauge" customModule="ZMAppFoundation">
-                                <rect key="frame" x="39" y="101" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGX-Fp-72s" customClass="ZMPieTimerView" customModule="ZMAppFoundation">
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XGX-Fp-72s" secondAttribute="height" multiplier="1:1" id="rCO-OZ-KKz"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="ZMGauge"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XGX-Fp-72s" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="DUt-QD-7c8"/>
+                            <constraint firstItem="XGX-Fp-72s" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="Zcx-Ey-RYK"/>
+                            <constraint firstItem="XGX-Fp-72s" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="eTf-Vi-WV1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="33.733133433283363"/>
         </scene>
     </scenes>
 </document>

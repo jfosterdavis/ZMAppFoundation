@@ -48,5 +48,5 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'GaugeKit'
+# s.dependency 'GaugeKit'
 end

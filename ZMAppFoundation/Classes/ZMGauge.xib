@@ -4,12 +4,13 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMGauge" customModule="ZMUtilityAppFramework" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMXibView" customModule="ZMAppFoundation" customModuleProvider="target">
             <connections>
                 <outlet property="Title" destination="vvs-Up-mEr" id="ckJ-F9-RAf"/>
                 <outlet property="title" destination="vvs-Up-mEr" id="csb-cy-qhH"/>
@@ -36,7 +37,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.22593858510000001" green="0.41343858509999998" blue="0.88566080729999996" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="Gjd-26-XeU"/>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="LjT-iI-9jp"/>

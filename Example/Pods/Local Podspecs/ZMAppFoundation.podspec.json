@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ZMAppFoundation/Classes/**/*",
-  "dependencies": {
-    "GaugeKit": [
-
-    ]
-  }
+  "source_files": "ZMAppFoundation/Classes/**/*"
 }
