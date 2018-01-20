@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZMAppFoundation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZMAppFoundation.'
+  s.summary          = 'A foundation for Zero Mu iOS apps.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,27 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Includes the fundamental things needed to make simple utility apps within the Zero Mu look and feel.  Includes these common functionalities to be easily implimented in each utility app to maximize code reuse.
+- Tabbed navigation with Settings menu
+- "Whats new" slides that display to user optionally during a minor update
+- Zero Mu Ad implementation
+- Acknowledgements pulled from various libraries, dependencies
+- version #
+- Zero Mu Logo
+- app store rating and prompting
+- providing feedback for the app from within the app
+- Notifications look and feel
+- About section
                        DESC
 
   s.homepage         = 'https://github.com/jfosterdavis/ZMAppFoundation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'jfosterdavis' => 'jfosterdavis@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/jfosterdavis/ZMAppFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZMAppFoundation/Classes/**/*'
   
@@ -38,5 +48,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'GaugeKit'
 end

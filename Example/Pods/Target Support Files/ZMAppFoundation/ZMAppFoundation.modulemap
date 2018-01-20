@@ -1,0 +1,6 @@
+framework module ZMAppFoundation {
+  umbrella header "ZMAppFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
