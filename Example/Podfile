@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZMAppFoundation_Example' do
+  pod 'ZMAppFoundation', :path => '../'
+
+  target 'ZMAppFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
