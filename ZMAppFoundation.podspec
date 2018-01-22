@@ -39,7 +39,7 @@ Includes the fundamental things needed to make simple utility apps within the Ze
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.swift-version = '4.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'ZMAppFoundation/Classes/**/*'
   
