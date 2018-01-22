@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28750C04512531172212295AEDBCA20C /* ZMGauge.xib in Sources */ = {isa = PBXBuildFile; fileRef = 29FCBF98A4C824A18F3B50A991BCA66A /* ZMGauge.xib */; };
 		48735B46AEBBB044DB3531F2769E4B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4E37449B4B874D7BD08F1C6FE552D3D4 /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E2EAC84A3EBDBF1B06DE8FB43DAB86 /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		505579A739132A04BA4FCF5A1BC5B0E5 /* ZMPieTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56C593D3A2A7767546FAC4D8D65B458 /* ZMPieTimerView.swift */; };
 		8071CF0EF65474285D1F9D04A9BD937D /* Pods-ZMAppFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 890F2D33A35C876A9F6F0C3A134F1882 /* Pods-ZMAppFoundation_Tests-dummy.m */; };
 		817FDD9EB43F0C26B573309A3C7A052C /* Pods-ZMAppFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED45EEDBB7A36C323DD32766D0AA442F /* Pods-ZMAppFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C8535CA0B9398EC3EE239E05A5ED92D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11325C224EF51EE17319696A99FE50 /* ReplaceMe.swift */; };
 		8DBE0243DDC1C6A812F9A72D1682D758 /* ZMAppFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727D21997C794C771C6FCB5490B1950 /* ZMAppFoundation-dummy.m */; };
 		A76A2CE49658E3CE749CF37061768D23 /* Pods-ZMAppFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D644D469EC047A06659E98DB261D6A0 /* Pods-ZMAppFoundation_Example-dummy.m */; };
 		C378D10A27B8C85459B0CB5205DB38FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DA2C57CE35490E7BC9CB267337ECDA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E29C8588A75C00CAF850183F91CC3651 /* Pods-ZMAppFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E25106A8EC8D8928DB334E2F0D21A71 /* Pods-ZMAppFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F27682DFC81EC291A9B27456B048C6DD /* ZMXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E192443BEF16C04FA16B86533C718 /* ZMXibView.swift */; };
-		F6F63ABD20166B24005582D7 /* ZMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F63ABC20166B24005582D7 /* ZMGaugeView.swift */; };
+		F6F63ACC20167218005582D7 /* ZMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F63AC820167218005582D7 /* ZMGaugeView.swift */; };
+		F6F63ACD20167218005582D7 /* ZMPieTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F63AC920167218005582D7 /* ZMPieTimerView.swift */; };
+		F6F63ACE20167218005582D7 /* ZMXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F63ACA20167218005582D7 /* ZMXibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +33,8 @@
 
 /* Begin PBXFileReference section */
 		0769D9A02E6BFFF4689CDBC9BF6CE32D /* Pods_ZMAppFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B11325C224EF51EE17319696A99FE50 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZMAppFoundation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2580C543D3F1F1620C6B925159BE6A57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28B1BD6DFCD3516BDEE948606A690C73 /* Pods-ZMAppFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Example-resources.sh"; sourceTree = "<group>"; };
-		29FCBF98A4C824A18F3B50A991BCA66A /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMAppFoundation/Classes/ZMGauge.xib; sourceTree = "<group>"; };
 		3A4050501978D99E5538C607C43FA9AB /* Pods-ZMAppFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
 		47D845FB05BB3B1C83137D46003925A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACCF5E426F2C266804782625728561D /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,15 +59,18 @@
 		B6D9C28A04F26E6A55ACE88A6522B8DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B5BF31672EC027EFCE123F4D010A1A /* Pods-ZMAppFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZMAppFoundation_Tests.modulemap"; sourceTree = "<group>"; };
 		C85147432E25978012B615F2DB981F5B /* ZMAppFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZMAppFoundation.modulemap; sourceTree = "<group>"; };
-		D56C593D3A2A7767546FAC4D8D65B458 /* ZMPieTimerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMPieTimerView.swift; path = ZMAppFoundation/Classes/ZMPieTimerView.swift; sourceTree = "<group>"; };
-		D62E192443BEF16C04FA16B86533C718 /* ZMXibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMXibView.swift; path = ZMAppFoundation/Classes/ZMXibView.swift; sourceTree = "<group>"; };
 		E86F898A76842B989F4F3EA682018B28 /* Pods-ZMAppFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZMAppFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		EB9D04329E0992DE6C7E5BA2953E369E /* ZMAppFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZMAppFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC1F84A021ABBFFEED76A854C40C22E1 /* Pods-ZMAppFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMAppFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED45EEDBB7A36C323DD32766D0AA442F /* Pods-ZMAppFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMAppFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		EE71A14031C23BAAFFE8882D97C5C56D /* Pods-ZMAppFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F0344733CA8D8D959CF557242019B9E2 /* Pods_ZMAppFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6F63ABC20166B24005582D7 /* ZMGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ZMGaugeView.swift; path = ZMAppFoundation/Classes/ZMGaugeView.swift; sourceTree = "<group>"; };
+		F6F63AC320167203005582D7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F6F63AC520167218005582D7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F6F63AC720167218005582D7 /* ZMGauge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMGauge.xib; sourceTree = "<group>"; };
+		F6F63AC820167218005582D7 /* ZMGaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMGaugeView.swift; sourceTree = "<group>"; };
+		F6F63AC920167218005582D7 /* ZMPieTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMPieTimerView.swift; sourceTree = "<group>"; };
+		F6F63ACA20167218005582D7 /* ZMXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMXibView.swift; sourceTree = "<group>"; };
 		FE3D4F0F91D45F4461E6D4FA4DE35880 /* ZMAppFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMAppFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -208,14 +207,41 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		F6F63AC220167202005582D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F6F63AC320167203005582D7 /* .gitkeep */,
+			);
+			name = Assets;
+			path = ZMAppFoundation/Assets;
+			sourceTree = "<group>";
+		};
+		F6F63AC420167218005582D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6F63AC520167218005582D7 /* .gitkeep */,
+				F6F63AC920167218005582D7 /* ZMPieTimerView.swift */,
+				F6F63ACF2016723A005582D7 /* Xibs */,
+			);
+			name = Classes;
+			path = ZMAppFoundation/Classes;
+			sourceTree = "<group>";
+		};
+		F6F63ACF2016723A005582D7 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F6F63AC720167218005582D7 /* ZMGauge.xib */,
+				F6F63AC820167218005582D7 /* ZMGaugeView.swift */,
+				F6F63ACA20167218005582D7 /* ZMXibView.swift */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
 		FED83944E784207A03DF0031B5D250B9 /* ZMAppFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				D56C593D3A2A7767546FAC4D8D65B458 /* ZMPieTimerView.swift */,
-				1B11325C224EF51EE17319696A99FE50 /* ReplaceMe.swift */,
-				29FCBF98A4C824A18F3B50A991BCA66A /* ZMGauge.xib */,
-				F6F63ABC20166B24005582D7 /* ZMGaugeView.swift */,
-				D62E192443BEF16C04FA16B86533C718 /* ZMXibView.swift */,
+				F6F63AC420167218005582D7 /* Classes */,
+				F6F63AC220167202005582D7 /* Assets */,
 				AC9CA3654C6EBDCB824C39AC4CFC1419 /* Pod */,
 				62126B4B1B1B2A72D9249037DD5AB25E /* Support Files */,
 			);
@@ -363,12 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505579A739132A04BA4FCF5A1BC5B0E5 /* ZMPieTimerView.swift in Sources */,
-				F6F63ABD20166B24005582D7 /* ZMGaugeView.swift in Sources */,
-				8C8535CA0B9398EC3EE239E05A5ED92D /* ReplaceMe.swift in Sources */,
+				F6F63ACD20167218005582D7 /* ZMPieTimerView.swift in Sources */,
+				F6F63ACC20167218005582D7 /* ZMGaugeView.swift in Sources */,
 				8DBE0243DDC1C6A812F9A72D1682D758 /* ZMAppFoundation-dummy.m in Sources */,
-				28750C04512531172212295AEDBCA20C /* ZMGauge.xib in Sources */,
-				F27682DFC81EC291A9B27456B048C6DD /* ZMXibView.swift in Sources */,
+				F6F63ACE20167218005582D7 /* ZMXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
