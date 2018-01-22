@@ -10,14 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMXibView" customModule="ZMAppFoundation" customModuleProvider="target">
-            <connections>
-                <outlet property="Title" destination="vvs-Up-mEr" id="ckJ-F9-RAf"/>
-                <outlet property="title" destination="vvs-Up-mEr" id="csb-cy-qhH"/>
-                <outlet property="titleLabel" destination="vvs-Up-mEr" id="Tki-rv-ebz"/>
-                <outlet property="valueLabel" destination="A0Y-gW-jDL" id="3aj-b3-03J"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMXibView" customModule="ZMAppFoundation"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>

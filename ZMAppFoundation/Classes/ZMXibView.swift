@@ -7,7 +7,9 @@
 
 import UIKit
 
-@IBDesignable open class ZMXibView: UIView {
+@IBDesignable
+open class ZMXibView: UIView {
+    
     
     var contentView:UIView?
     @IBInspectable var nibName:String?
