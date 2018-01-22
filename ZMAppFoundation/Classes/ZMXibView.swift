@@ -12,7 +12,7 @@ open class ZMXibView: UIView {
     
     
     var contentView:UIView?
-    @IBInspectable var nibName:String?
+    @IBInspectable open var nibName:String?
     
     override open func awakeFromNib() {
         super.awakeFromNib()

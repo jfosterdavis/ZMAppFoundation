@@ -18,6 +18,10 @@ open class ZMGaugeView: ZMXibView {
     
 
     override open func prepareForInterfaceBuilder() {
+        
+        if self.nibName == nil {
+            self.nibName = "ZMGauge"
+        }
         super.prepareForInterfaceBuilder()
         self.titleLabel.text = "This is the title for IB"
     }
