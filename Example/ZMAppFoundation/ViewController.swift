@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ZMAppFoundation
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var gauge: ZMGaugeView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        gauge.titleLabel.text = "set this title text in viewDidLoad"
     }
 
     override func didReceiveMemoryWarning() {

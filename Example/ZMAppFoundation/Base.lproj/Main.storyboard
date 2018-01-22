@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGX-Fp-72s" customClass="ZMXibView" customModule="ZMAppFoundation">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGX-Fp-72s" customClass="ZMGaugeView" customModule="ZMAppFoundation">
                                 <rect key="frame" x="0.0" y="146" width="375" height="375"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -40,6 +40,9 @@
                             <constraint firstItem="XGX-Fp-72s" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="eTf-Vi-WV1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gauge" destination="XGX-Fp-72s" id="VUd-Rx-QOU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
