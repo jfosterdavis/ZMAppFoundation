@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMGaugeView" customModule="ZMAppFoundation">
             <connections>
+                <outlet property="gauge" destination="mTL-4V-YEX" id="TFc-B2-hXN"/>
                 <outlet property="titleLabel" destination="vvs-Up-mEr" id="uuq-PH-msz"/>
                 <outlet property="valueLabel" destination="A0Y-gW-jDL" id="dJq-y6-KO0"/>
             </connections>
@@ -27,6 +27,21 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mTL-4V-YEX" customClass="Gauge" customModule="GaugeKit">
+                    <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                            <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                            <real key="value" value="100"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rate">
+                            <real key="value" value="75"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0Y-gW-jDL">
                     <rect key="frame" x="86" y="79" width="42" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -37,9 +52,13 @@
             </subviews>
             <color key="backgroundColor" red="0.22593858510000001" green="0.41343858509999998" blue="0.88566080729999996" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstItem="mTL-4V-YEX" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="2fY-oP-q6H"/>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="Gjd-26-XeU"/>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="LjT-iI-9jp"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vvs-Up-mEr" secondAttribute="trailing" constant="5" id="g7i-TB-PQ0"/>
+                <constraint firstItem="mTL-4V-YEX" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="nfD-Uv-ePO"/>
+                <constraint firstItem="mTL-4V-YEX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="ofE-a1-5PD"/>
+                <constraint firstItem="mTL-4V-YEX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="qyw-BZ-Pcv"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

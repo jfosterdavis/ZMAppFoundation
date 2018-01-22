@@ -342,10 +342,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZMAppFoundation_Example/Pods-ZMAppFoundation_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GaugeKit/GaugeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ZMAppFoundation/ZMAppFoundation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GaugeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMAppFoundation.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

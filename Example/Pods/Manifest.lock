@@ -1,5 +1,7 @@
 PODS:
-  - ZMAppFoundation (0.1.0)
+  - GaugeKit (0.4.5)
+  - ZMAppFoundation (0.1.0):
+    - GaugeKit
 
 DEPENDENCIES:
   - ZMAppFoundation (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZMAppFoundation: e63da39166044621d15f7854609b82f821543d25
+  GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
+  ZMAppFoundation: e1d2121f169e734c80ad0ec2169725377c97ec18
 
 PODFILE CHECKSUM: 2d841542f6710fcceb57422eeef5835f043fded2
 
