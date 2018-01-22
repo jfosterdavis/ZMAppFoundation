@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMAppFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A foundation for Zero Mu iOS apps.'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,7 @@ Includes the fundamental things needed to make simple utility apps within the Ze
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift-version = '4.0'
 
   s.source_files = 'ZMAppFoundation/Classes/**/*'
   
