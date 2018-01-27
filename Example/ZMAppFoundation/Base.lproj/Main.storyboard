@@ -30,9 +30,6 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="ZMGauge"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="indicatedValue">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
