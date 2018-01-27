@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         gauge.titleLabel.text = "set this title text in viewDidLoad"
-        gauge.gauge.rate = 33
+        gauge.indicatedValue = 9
+        gauge.curveThickness = 3
     }
 
     override func didReceiveMemoryWarning() {
