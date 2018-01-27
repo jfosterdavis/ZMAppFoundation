@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -31,17 +32,13 @@
                     <rect key="frame" x="0.0" y="0.0" width="214" height="180"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
-                            <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                             <real key="value" value="10"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0Y-gW-jDL">
-                    <rect key="frame" x="86" y="79" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0Y-gW-jDL">
+                    <rect key="frame" x="0.0" y="79" width="214" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -52,7 +49,10 @@
                 <constraint firstItem="mTL-4V-YEX" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="2fY-oP-q6H"/>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="Gjd-26-XeU"/>
                 <constraint firstItem="vvs-Up-mEr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="LjT-iI-9jp"/>
+                <constraint firstItem="A0Y-gW-jDL" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Pxf-Nq-DGs"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vvs-Up-mEr" secondAttribute="trailing" constant="5" id="g7i-TB-PQ0"/>
+                <constraint firstItem="A0Y-gW-jDL" firstAttribute="width" secondItem="mTL-4V-YEX" secondAttribute="width" id="iHX-fQ-KZm"/>
+                <constraint firstItem="A0Y-gW-jDL" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="io1-OK-AHc"/>
                 <constraint firstItem="mTL-4V-YEX" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="nfD-Uv-ePO"/>
                 <constraint firstItem="mTL-4V-YEX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="ofE-a1-5PD"/>
                 <constraint firstItem="mTL-4V-YEX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="qyw-BZ-Pcv"/>
