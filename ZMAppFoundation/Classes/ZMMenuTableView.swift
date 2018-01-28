@@ -47,6 +47,12 @@ open class ZMMenuTableView: ZMXibView {
         parentVC.present(vc, animated: true, completion: nil)
     }
     
+    @IBAction open func menuItemAcknowledgements(_ sender: UIButton) {
+        let bundle = Bundle(for: type(of: self))
+        let vc = UIStoryboard(name: "ZMAppFoundation", bundle: bundle).instantiateViewController(withIdentifier: "Acknowledgements")
+        parentVC.present(vc, animated: true, completion: nil)
+    }
+    
     /******************************************************/
     /*******************///MARK: Xib IB functions
     /******************************************************/

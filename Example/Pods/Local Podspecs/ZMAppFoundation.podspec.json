@@ -20,6 +20,9 @@
   },
   "swift_version": "4.0",
   "source_files": "ZMAppFoundation/Classes/**/*",
+  "resources": [
+    "ZMAppFoundation/Assets/*.storyboard"
+  ],
   "dependencies": {
     "GaugeKit": [
 
