@@ -1,7 +1,9 @@
 PODS:
   - GaugeKit (0.4.5)
-  - ZMAppFoundation (0.1.0):
+  - InteractiveSideMenu (2.1)
+  - ZMAppFoundation (0.1.1):
     - GaugeKit
+    - InteractiveSideMenu
 
 DEPENDENCIES:
   - ZMAppFoundation (from `../`)
@@ -12,7 +14,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
-  ZMAppFoundation: e1d2121f169e734c80ad0ec2169725377c97ec18
+  InteractiveSideMenu: 9e3c8b004edd8b8c2ebaef2c3f0fde87c357b904
+  ZMAppFoundation: f3923423c2f1fe9a21962bcd98fbdf1caeb18e4a
 
 PODFILE CHECKSUM: 2d841542f6710fcceb57422eeef5835f043fded2
 
