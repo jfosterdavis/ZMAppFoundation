@@ -26,6 +26,7 @@ open class ZMGaugeView: ZMXibView {
     open var gaugeMaxValue: CGFloat = 10 {
         didSet {
             self.xibSetup()
+            
         }
     }
     
