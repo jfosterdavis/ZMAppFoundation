@@ -42,7 +42,7 @@ Includes the fundamental things needed to make simple utility apps within the Ze
   s.swift_version = '4.0'
 
   s.source_files = 'ZMAppFoundation/Classes/**/*'
-  s.resources = ['ZMAppFoundation/Assets/*.storyboard']
+  s.resources = ['ZMAppFoundation/Assets/*.storyboard','ZMAppFoundation/Assets/*.xib']
   
   # s.resource_bundles = {
   #   'ZMAppFoundation' => ['ZMAppFoundation/Assets/*.png']
