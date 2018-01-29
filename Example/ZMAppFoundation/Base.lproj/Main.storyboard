@@ -84,7 +84,7 @@
         <!--ParentVC-->
         <scene sceneID="Bd9-Gp-nLF">
             <objects>
-                <viewController id="522-Cb-1Wr" sceneMemberID="viewController">
+                <viewController id="522-Cb-1Wr" customClass="ZMMenuTableViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zoa-qH-eTH"/>
                         <viewControllerLayoutGuide type="bottom" id="FI0-R1-fRq"/>
@@ -98,6 +98,9 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="wVX-ZC-ZCU"/>
+                    <connections>
+                        <outlet property="tableViewContainer" destination="Sx9-cP-Cqo" id="yyA-xq-uRA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84d-bn-jHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

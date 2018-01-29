@@ -15,13 +15,14 @@ open class ZMMenuTableView: ZMXibView {
     /******************************************************/
     /*******************///MARK: Outlets and Actions
     /******************************************************/
-   
-    @IBOutlet open var homeButton: UIButton!
-    
-    @IBOutlet var menuButton1: UIButton!
+//
+//    @IBOutlet open var homeButton: UIButton!
+//
+//    @IBOutlet var menuButton1: UIButton!
     
     @IBOutlet var parentVC: UIViewController!
     
+    @IBOutlet weak var tableView: UITableView!
     /**
      Sets the color of the gauge value indicator curve
      */
@@ -69,7 +70,7 @@ open class ZMMenuTableView: ZMXibView {
             self.nibName = "ZMMenuTable"
         }
         super.prepareForInterfaceBuilder()
-        self.homeButton.setTitle("Home", for: .normal)
-        self.menuButton1.setTitle("Menu Item 1", for: .normal)
+//        self.homeButton.setTitle("Home", for: .normal)
+//        self.menuButton1.setTitle("Menu Item 1", for: .normal)
     }
 }
