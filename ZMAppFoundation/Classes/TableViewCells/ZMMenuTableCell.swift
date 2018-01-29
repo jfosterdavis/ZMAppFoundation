@@ -12,21 +12,17 @@ class ZMMenuTableCell: UITableViewCell {
     
     @IBOutlet weak var menuItemLabel: UILabel!
     
-    var destinationVC: UIViewController!
     
     func loadCell(from menuItem: ZMMenuItem) {
         menuItemLabel.text = menuItem.displayTitle
-        destinationVC = menuItem.destinationVC
+        //destinationVC = menuItem.destinationVC
         
         if let menuItemIcon = menuItem.displayIcon {
             //menuItemIconImageView.image = menuItemIcon
         }
     }
     
-    func cellSelected() {
-        let topmostVC = topMostController()
-        topmostVC.present(destinationVC, animated: true, completion: nil)
-    }
+    
     
     /******************************************************/
     /*******************///MARK: Xib IB functions

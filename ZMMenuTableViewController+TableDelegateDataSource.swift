@@ -29,7 +29,12 @@ extension ZMMenuTableViewController: UITableViewDelegate, UITableViewDataSource 
         return cell
     }
     
-    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let menuItem = ZMMenuItems.StandardItems[indexPath.row]
+        
+        menuItem.itemSelected()
+    }
     
     
 }

@@ -25,4 +25,9 @@ class ZMMenuItem: NSObject {
 
         super.init()
     }
+    
+    func itemSelected() {
+        let topmostVC = topMostController()
+        topmostVC.present(destinationVC, animated: true, completion: nil)
+    }
 }
