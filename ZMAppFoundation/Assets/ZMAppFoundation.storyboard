@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,13 +13,31 @@
         <!--Acknowledgements View Controller-->
         <scene sceneID="Izy-4e-NCk">
             <objects>
-                <viewController storyboardIdentifier="Acknowledgements" id="yl3-w9-BHq" customClass="ZMAcknowledgementsViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Acknowledgements" modalPresentationStyle="overFullScreen" id="yl3-w9-BHq" customClass="ZMAcknowledgementsViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P9e-ph-ow6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="986-Ep-wvg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Acknowledgements" id="85e-vs-8QK">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="KDW-gZ-F8x">
+                                            <connections>
+                                                <action selector="doneButtonPressed" destination="yl3-w9-BHq" id="fmF-3Y-Hwy"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="LUd-LT-9wS"/>
                     </view>
+                    <connections>
+                        <outlet property="doneButton" destination="KDW-gZ-F8x" id="U4A-Zt-zwX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EF6-jc-I0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
