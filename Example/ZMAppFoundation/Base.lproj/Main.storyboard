@@ -74,7 +74,7 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="522-Cb-1Wr" kind="relationship" relationship="rootViewController" id="2CH-qK-Bc8"/>
+                        <segue destination="kRV-3a-imm" kind="relationship" relationship="rootViewController" id="tne-fx-aKH"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNO-5Y-USo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -82,26 +82,23 @@
             <point key="canvasLocation" x="-918" y="721"/>
         </scene>
         <!--Menu Table View Controller-->
-        <scene sceneID="Bd9-Gp-nLF">
+        <scene sceneID="MmC-d4-Mpp">
             <objects>
-                <viewController id="522-Cb-1Wr" customClass="ZMMenuTableViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zoa-qH-eTH"/>
-                        <viewControllerLayoutGuide type="bottom" id="FI0-R1-fRq"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Sx9-cP-Cqo" customClass="ZMMenuTableView" customModule="ZMAppFoundation">
+                <tableViewController id="kRV-3a-imm" customClass="ZMMenuTableViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YuH-ZZ-zT8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wVX-ZC-ZCU"/>
-                    <connections>
-                        <outlet property="menuTableView" destination="Sx9-cP-Cqo" id="kxy-1n-5Kd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="84d-bn-jHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <connections>
+                            <outlet property="dataSource" destination="kRV-3a-imm" id="ouD-fe-KXD"/>
+                            <outlet property="delegate" destination="kRV-3a-imm" id="2Xh-0x-BO2"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ljp-uZ-09J"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Llm-lo-Czy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="735"/>
+            <point key="canvasLocation" x="14" y="725"/>
         </scene>
     </scenes>
 </document>

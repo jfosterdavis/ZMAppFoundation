@@ -8,10 +8,10 @@
 import Foundation
 import UIKit
 
+@IBDesignable
 class ZMMenuTableCell: UITableViewCell {
     
     @IBOutlet weak var menuItemLabel: UILabel!
-    
     
     func loadCell(from menuItem: ZMMenuItem) {
         menuItemLabel.text = menuItem.displayTitle
