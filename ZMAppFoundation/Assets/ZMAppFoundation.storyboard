@@ -53,6 +53,13 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg6-8u-zJZ" customClass="ZMMenuTableView" customModule="ZMAppFoundation" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="10" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N1h-Mz-5x3" customClass="ZMMenuTableCell" customModule="ZMAppFoundation" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="269" width="359" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>

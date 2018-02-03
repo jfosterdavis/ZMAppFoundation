@@ -21,25 +21,4 @@ class ZMMenuTableCell: UITableViewCell {
             //menuItemIconImageView.image = menuItemIcon
         }
     }
-    
-    
-    
-    /******************************************************/
-    /*******************///MARK: Xib IB functions
-    /******************************************************/
-//    override open func xibSetup() {
-//        if self.nibName == nil {
-//            self.nibName = "ZMMenuTableCell"
-//        }
-//        super.xibSetup()
-//    }
-//
-//    override open func prepareForInterfaceBuilder() {
-//
-//        if self.nibName == nil {
-//            self.nibName = "ZMMenuTableCell"
-//        }
-//        super.prepareForInterfaceBuilder()
-//
-//    }
 }
