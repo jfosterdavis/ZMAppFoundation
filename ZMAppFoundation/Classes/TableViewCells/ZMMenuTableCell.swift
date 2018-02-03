@@ -12,13 +12,13 @@ import UIKit
 class ZMMenuTableCell: UITableViewCell {
     
     @IBOutlet weak var menuItemLabel: UILabel!
+    @IBOutlet weak var menuItemIconImageView: UIImageView!
     
     func loadCell(from menuItem: ZMMenuItem) {
         menuItemLabel.text = menuItem.displayTitle
-        //destinationVC = menuItem.destinationVC
         
         if let menuItemIcon = menuItem.displayIcon {
-            //menuItemIconImageView.image = menuItemIcon
+            menuItemIconImageView.image = menuItemIcon
         }
     }
 }
