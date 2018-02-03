@@ -73,7 +73,7 @@
                         <viewLayoutGuide key="safeArea" id="C2q-0v-dmX"/>
                     </view>
                     <connections>
-                        <outlet property="tableViewContainer" destination="Eg6-8u-zJZ" id="A6b-aL-sa6"/>
+                        <outlet property="menuTableView" destination="Eg6-8u-zJZ" id="nPP-M2-t9R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfh-ZP-uA7" userLabel="First Responder" sceneMemberID="firstResponder"/>

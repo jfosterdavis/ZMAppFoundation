@@ -9,33 +9,30 @@ import Foundation
 import UIKit
 
 @IBDesignable
-open class ZMMenuTableView: ZMXibView {
+open class ZMMenuTableView: UITableView {
  
     
     /******************************************************/
     /*******************///MARK: Outlets and Actions
     /******************************************************/
     
-    @IBOutlet var parentVC: UIViewController!
-    
-    @IBOutlet weak var tableView: UITableView!
-    
+    //@IBOutlet weak var tableView: UITableView!
     
     /******************************************************/
     /*******************///MARK: Xib IB functions
     /******************************************************/
-    override open func xibSetup() {
-        if self.nibName == nil {
-            self.nibName = "ZMMenuTable"
-        }
-        super.xibSetup()
-    }
-    
-    override open func prepareForInterfaceBuilder() {
-        
-        if self.nibName == nil {
-            self.nibName = "ZMMenuTable"
-        }
-        super.prepareForInterfaceBuilder()
-    }
+//    override open func xibSetup() {
+//        if self.nibName == nil {
+//            self.nibName = "ZMMenuTable"
+//        }
+//        super.xibSetup()
+//    }
+//
+//    override open func prepareForInterfaceBuilder() {
+//
+//        if self.nibName == nil {
+//            self.nibName = "ZMMenuTable"
+//        }
+//        super.prepareForInterfaceBuilder()
+//    }
 }

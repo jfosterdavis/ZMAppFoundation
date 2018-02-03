@@ -9,30 +9,28 @@ import UIKit
 
 class ZMMenuTableViewController: UIViewController {
 
-    @IBOutlet weak var tableViewContainer: ZMMenuTableView!
+    @IBOutlet weak var menuTableView: ZMMenuTableView!
     
     let tableCellId = "ZMMenuTableCell"
+    let tableCellNibName = "ZMMenuTableCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        // First load table nib
+        // Delegate the TableView
+        self.menuTableView.delegate = self
+        self.menuTableView.dataSource = self
+        
+        // Set the bundle
         let bundle = Bundle(for: type(of: self))
         
-        // Then delegate the TableView
-        self.tableViewContainer.tableView.delegate = self
-        self.tableViewContainer.tableView.dataSource = self
-        
         // Register table cell class from nib
-        let cellNib = UINib(nibName: "ZMMenuTableCell", bundle: bundle)
-        self.tableViewContainer.tableView.register(cellNib, forCellReuseIdentifier: self.tableCellId)
-                
+        let cellNib = UINib(nibName: tableCellNibName, bundle: bundle)
+        self.menuTableView.register(cellNib, forCellReuseIdentifier: self.tableCellId)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }

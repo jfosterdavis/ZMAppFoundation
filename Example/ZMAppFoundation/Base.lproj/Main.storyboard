@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="-918" y="721"/>
         </scene>
-        <!--ParentVC-->
+        <!--Menu Table View Controller-->
         <scene sceneID="Bd9-Gp-nLF">
             <objects>
                 <viewController id="522-Cb-1Wr" customClass="ZMMenuTableViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
@@ -93,13 +93,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <connections>
-                            <outlet property="parentVC" destination="522-Cb-1Wr" id="dYG-Bb-mly"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="wVX-ZC-ZCU"/>
                     <connections>
-                        <outlet property="tableViewContainer" destination="Sx9-cP-Cqo" id="yyA-xq-uRA"/>
+                        <outlet property="menuTableView" destination="Sx9-cP-Cqo" id="kxy-1n-5Kd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84d-bn-jHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
