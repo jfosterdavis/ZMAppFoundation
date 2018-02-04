@@ -22,6 +22,7 @@ class ZMMenuTableViewController: UITableViewController {
      Sets the color of the gauge value indicator curve.  This is done in cellForRow
      */
     @IBInspectable open var cellBGColor: UIColor = UIColor.purple
+    @IBInspectable open var topHeaderImage: UIImage?
     
     
     
@@ -85,18 +86,22 @@ class ZMMenuTableViewController: UITableViewController {
     /******************************************************/
 
     override public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let bundle = Bundle(for: type(of: self))
         
-        //let headerImageView = UIImageView()
-        let anImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
-        //headerImageView.image = bgImage
-        //headerImageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 100)
         
+        
+        //dequeue the header view
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableHeaderViewNibName) as! ZMMenuTableHeaderView
+        //if the user set an image for this table
+        if let topHeaderImage = topHeaderImage {
+            //get the image to put in the background
+            //        let bundle = Bundle(for: type(of: self))
+            //        let headerImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
+            
+            //give the image to the headerview
+            header.bgImageView.image = topHeaderImage
+        }
         
-        //let zmHeader = ZMMenuTableHeaderView()
-        header.bgImageView.image = anImage
-        //header.addSubview(zmHeader)
+        
         return header
     }
     
