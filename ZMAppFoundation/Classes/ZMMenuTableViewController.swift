@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class ZMMenuTableViewController: UITableViewController {
 
     let tableCellId = "ZMMenuTableCell"

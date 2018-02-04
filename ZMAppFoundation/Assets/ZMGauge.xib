@@ -12,9 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMGaugeView" customModule="ZMAppFoundation">
             <connections>
-                <outlet property="gauge" destination="mTL-4V-YEX" id="TFc-B2-hXN"/>
-                <outlet property="titleLabel" destination="vvs-Up-mEr" id="uuq-PH-msz"/>
-                <outlet property="valueLabel" destination="A0Y-gW-jDL" id="dJq-y6-KO0"/>
+                <outlet property="gauge" destination="mTL-4V-YEX" id="yWp-ZF-1ue"/>
+                <outlet property="titleLabel" destination="vvs-Up-mEr" id="Hzo-73-E3j"/>
+                <outlet property="valueLabel" destination="A0Y-gW-jDL" id="v9g-Bl-khX"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

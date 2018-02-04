@@ -55,7 +55,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="gauge" destination="XGX-Fp-72s" id="VUd-Rx-QOU"/>
+                        <outlet property="gauge" destination="XGX-Fp-72s" id="Lx0-qA-rSJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
