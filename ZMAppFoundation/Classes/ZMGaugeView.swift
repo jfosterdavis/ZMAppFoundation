@@ -10,10 +10,6 @@ import GaugeKit
 
 @IBDesignable
 open class ZMGaugeView: UIView, ZMXib {
-        
-    
-    
-
     
     @IBOutlet open weak var titleLabel: UILabel!
     @IBOutlet open weak var valueLabel: UILabel!

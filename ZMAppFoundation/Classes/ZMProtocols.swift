@@ -43,7 +43,10 @@ extension ZMXib where Self: UIView {
     }
     
     func loadViewFromNib() -> UIView? {
-        guard let nibName = nibName else { return nil }
+        guard let nibName = nibName else {
+            print("nibName is nil for \(type(of: self))")
+            return nil
+        }
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(

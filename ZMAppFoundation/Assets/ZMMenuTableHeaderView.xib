@@ -10,13 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMMenuTableHeaderView" customModule="ZMAppFoundation" customModuleProvider="target">
-            <connections>
-                <outlet property="bgImageView" destination="Uok-hE-tVX" id="gWJ-qz-MRb"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMMenuTableHeaderView" customModule="ZMAppFoundation"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZMMenuTableHeaderView" customModule="ZMAppFoundation">
             <rect key="frame" x="0.0" y="0.0" width="399" height="191"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -33,6 +29,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bgImageView" destination="Uok-hE-tVX" id="xqs-LL-E17"/>
+            </connections>
             <point key="canvasLocation" x="81.5" y="-183.5"/>
         </view>
     </objects>

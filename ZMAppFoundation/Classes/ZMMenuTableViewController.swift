@@ -13,7 +13,6 @@ class ZMMenuTableViewController: UITableViewController {
     let tableCellId = "ZMMenuTableCell"
     let tableCellNibName = "ZMMenuTableCell"
     let tableHeaderViewNibName = "ZMMenuTableHeaderView"
-    var tableHeaderView: UITableViewHeaderFooterView?
     
     /******************************************************/
     /*******************///MARK: IBInspectable properties
@@ -39,10 +38,11 @@ class ZMMenuTableViewController: UITableViewController {
         
         // Register table cell class from nib
         let cellNib = UINib(nibName: tableCellNibName, bundle: bundle)
-        self.tableView.register(cellNib, forCellReuseIdentifier: self.tableCellId)
+        tableView.register(cellNib, forCellReuseIdentifier: self.tableCellId)
         
-        //Register table header view
-        //tableHeaderView = UINib(nibName: tableHeaderViewNibName, bundle: bundle)
+        //Register the header view
+        let headerNib = UINib(nibName: tableHeaderViewNibName, bundle: bundle)
+        tableView.register(headerNib, forHeaderFooterViewReuseIdentifier: tableHeaderViewNibName)
         
     }
     
@@ -87,13 +87,16 @@ class ZMMenuTableViewController: UITableViewController {
     override public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let bundle = Bundle(for: type(of: self))
         
-        let headerImageView = UIImageView()
-        let bgImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
-        headerImageView.image = bgImage
-        headerImageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 100)
+        //let headerImageView = UIImageView()
+        let anImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
+        //headerImageView.image = bgImage
+        //headerImageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 100)
         
-        let header: UITableViewHeaderFooterView = UITableViewHeaderFooterView()
-        header.addSubview(headerImageView)
+        let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableHeaderViewNibName) as! ZMMenuTableHeaderView
+        
+        //let zmHeader = ZMMenuTableHeaderView()
+        header.bgImageView.image = anImage
+        //header.addSubview(zmHeader)
         return header
     }
     
