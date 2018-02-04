@@ -23,6 +23,7 @@ class ZMMenuTableViewController: UITableViewController {
      */
     @IBInspectable open var cellBGColor: UIColor = UIColor.purple
     @IBInspectable open var topHeaderImage: UIImage?
+    @IBInspectable open var topHeaderHeight: CGFloat = 0
     
     
     
@@ -106,7 +107,26 @@ class ZMMenuTableViewController: UITableViewController {
     }
     
     override public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 100
+        
+        //the header image only shows in section 0
+        if section == 0 {
+        
+            //if there is an image set for the top image
+            if let topHeaderImage = topHeaderImage {
+                //if the specified a height is more than default of 0, use the specified height
+                if topHeaderHeight != 0 {
+                    return topHeaderHeight
+                } else {  //else show size derrived from the image height
+                    return topHeaderImage.size.height
+                }
+            } else { //if there is no custom image, don't show the top header.
+                return 0
+            }
+        } else {
+            //this is not the top section, return tv default as set in IB
+            return tableView.sectionHeaderHeight
+        }
+        
     }
     
     
