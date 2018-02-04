@@ -65,9 +65,9 @@
         <!--Side Menu Navigation Controller-->
         <scene sceneID="55u-ec-Smb">
             <objects>
-                <navigationController id="sHH-07-Bfv" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="sHH-07-Bfv" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="POp-Jt-3gE">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>
@@ -95,6 +95,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Ljp-uZ-09J"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="cellBGColor">
                             <color key="value" red="0.94097222219999999" green="0.19791666669999999" blue="0.94097222219999999" alpha="1" colorSpace="calibratedRGB"/>
