@@ -88,13 +88,18 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YuH-ZZ-zT8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.12847222220000001" green="0.96180555560000003" blue="0.94097222219999999" alpha="1" colorSpace="calibratedRGB"/>
                         <connections>
                             <outlet property="dataSource" destination="kRV-3a-imm" id="ouD-fe-KXD"/>
                             <outlet property="delegate" destination="kRV-3a-imm" id="2Xh-0x-BO2"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Ljp-uZ-09J"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="cellBGColor">
+                            <color key="value" red="0.94097222219999999" green="0.19791666669999999" blue="0.94097222219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Llm-lo-Czy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

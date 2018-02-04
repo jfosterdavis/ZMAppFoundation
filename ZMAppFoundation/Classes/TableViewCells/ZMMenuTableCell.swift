@@ -14,7 +14,13 @@ class ZMMenuTableCell: UITableViewCell {
     @IBOutlet weak var menuItemLabel: UILabel!
     @IBOutlet weak var menuItemIconImageView: UIImageView!
     
+    open var bgColor:UIColor = UIColor.white
+    
     func loadCell(from menuItem: ZMMenuItem) {
+        //set color
+        contentView.backgroundColor = bgColor
+        
+        
         menuItemLabel.text = menuItem.displayTitle
         
         if let menuItemIcon = menuItem.displayIcon {

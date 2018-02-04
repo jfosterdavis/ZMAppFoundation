@@ -7,11 +7,29 @@
 
 import UIKit
 
-//@IBDesignable
+@IBDesignable
 class ZMMenuTableViewController: UITableViewController {
 
     let tableCellId = "ZMMenuTableCell"
     let tableCellNibName = "ZMMenuTableCell"
+    let tableHeaderViewNibName = "ZMMenuTableHeaderView"
+    var tableHeaderView: UITableViewHeaderFooterView?
+    
+    /******************************************************/
+    /*******************///MARK: IBInspectable properties
+    /******************************************************/
+
+    /**
+     Sets the color of the gauge value indicator curve.  This is done in cellForRow
+     */
+    @IBInspectable open var cellBGColor: UIColor = UIColor.purple
+    
+    
+    
+    /******************************************************/
+    /*******************///MARK: Life Cycle
+    /******************************************************/
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +40,12 @@ class ZMMenuTableViewController: UITableViewController {
         // Register table cell class from nib
         let cellNib = UINib(nibName: tableCellNibName, bundle: bundle)
         self.tableView.register(cellNib, forCellReuseIdentifier: self.tableCellId)
+        
+        //Register table header view
+        //tableHeaderView = UINib(nibName: tableHeaderViewNibName, bundle: bundle)
+        
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -42,8 +65,11 @@ class ZMMenuTableViewController: UITableViewController {
         
         let menuItem = ZMMenuItems.StandardItems[indexPath.row]
         
-        cell.loadCell(from: menuItem)
+        //set the appearance based on IBDesignables in this class.  do this before loadCell.
+        cell.bgColor = cellBGColor
         
+        cell.loadCell(from: menuItem)
+    
         return cell
     }
     
@@ -53,4 +79,27 @@ class ZMMenuTableViewController: UITableViewController {
         
         menuItem.itemSelected()
     }
+    
+    /******************************************************/
+    /*******************///MARK: Fancy Tableview settings
+    /******************************************************/
+
+    override public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let bundle = Bundle(for: type(of: self))
+        
+        let headerImageView = UIImageView()
+        let bgImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
+        headerImageView.image = bgImage
+        headerImageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 100)
+        
+        let header: UITableViewHeaderFooterView = UITableViewHeaderFooterView()
+        header.addSubview(headerImageView)
+        return header
+    }
+    
+    override public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 100
+    }
+    
+    
 }

@@ -21,8 +21,7 @@
   "swift_version": "4.0",
   "source_files": "ZMAppFoundation/Classes/**/*",
   "resources": [
-    "ZMAppFoundation/Assets/*.storyboard",
-    "ZMAppFoundation/Assets/*.xib"
+    "ZMAppFoundation/Assets/*.{storyboard,xcassets,xib}"
   ],
   "dependencies": {
     "GaugeKit": [

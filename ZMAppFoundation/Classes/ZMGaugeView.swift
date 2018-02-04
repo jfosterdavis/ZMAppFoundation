@@ -9,12 +9,23 @@ import UIKit
 import GaugeKit
 
 @IBDesignable
-open class ZMGaugeView: ZMXibView {
+open class ZMGaugeView: UIView, ZMXib {
+        
+    
+    
 
     
     @IBOutlet open weak var titleLabel: UILabel!
     @IBOutlet open weak var valueLabel: UILabel!
     @IBOutlet weak var gauge: Gauge!
+    
+    /******************************************************/
+    /*******************///MARK: ZMXib Properties
+    /******************************************************/
+
+    var zmXibContentView: UIView?
+    
+    @IBInspectable var nibName: String?
     
     /******************************************************/
     /*******************///MARK: setting gauge appearance
@@ -121,12 +132,19 @@ open class ZMGaugeView: ZMXibView {
     }
     
     /******************************************************/
-    /*******************///MARK: Xib IB functions
+    /*******************///MARK: ZMXib Protocol Functions
     /******************************************************/
 
+    override open func awakeFromNib() {
+                super.awakeFromNib()
+                xibSetupFunctions()
+            }
     
-    override open func xibSetup() {
-        super.xibSetup()
+    /**
+     A custom "override" of xibSetup that adds some stuff on at the end.  Used in awakeFromNib
+     */
+    open func xibSetupFunctions() {
+        xibSetup()
         
         /******************************************************/
         /*******************///MARK: Default gauge thickness
@@ -135,7 +153,7 @@ open class ZMGaugeView: ZMXibView {
         //make the thickness 1/5 the radius of the curve.
         var newThickness:CGFloat = 5
         //only do this if the user hasn't overridden the thickness by using curveThickness
-        if let gaugeContentView = self.contentView, self.gaugeCurveThickness == nil {
+        if let gaugeContentView = self.zmXibContentView, self.gaugeCurveThickness == nil {
             let radius = gaugeContentView.frame.height
             newThickness = radius/5
             self._gaugeCurveThickness = newThickness
