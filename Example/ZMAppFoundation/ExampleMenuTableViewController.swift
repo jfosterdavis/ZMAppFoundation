@@ -17,6 +17,8 @@ class ExampleMenuTableViewController: ZMMenuTableViewController {
         //default function is to take the standard items coded into ZMMenuItems.StandardItems
         
         var allZMMenuItems = [ZMMenuItem]()
+        
+        allZMMenuItems.append(contentsOf: ExampleMenuItems.StandardItems)
         allZMMenuItems.append(contentsOf: ZMMenuItems.StandardItems)
         
         zmAllMenuItems = allZMMenuItems

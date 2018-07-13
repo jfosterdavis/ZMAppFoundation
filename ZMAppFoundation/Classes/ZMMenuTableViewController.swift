@@ -75,7 +75,7 @@ open class ZMMenuTableViewController: UITableViewController {
     }
 
     override open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ZMMenuItems.StandardItems.count
+        return zmAllMenuItems.count
     }
     
     //this function not intended to be overridden

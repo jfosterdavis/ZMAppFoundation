@@ -6,17 +6,21 @@
 //  Copyright © 2018 CocoaPods. All rights reserved.
 //
 
-//import ZMAppFoundation
-//import UIKit
-//
-//struct ExampleMenuItems {
-//    
-//    static let MenuBundle:Bundle = Bundle(for: ZMMenuItem.self)
-//    
-//    static let StandardItems: [ZMMenuItem] = [AllSpecificMenuItem]
-//    
-//    static let AllSpecificMenuItem = ZMMenuItem(displayTitle: "App Specific Menu Item",
-//                                            destinationVC: UIStoryboard(name: "ZMAppFoundation", bundle: MenuBundle).instantiateViewController(withIdentifier: "Acknowledgements"),
-//                                            displayIcon: nil)
-//    
-//}
+import ZMAppFoundation
+import UIKit
+
+struct ExampleMenuItems {
+    
+    static let MenuBundle:Bundle = Bundle(for: ZMMenuItem.self)
+    
+    static let StandardItems: [ZMMenuItem] = [AppSpecificMenuItem1, AppSpecificMenuItem2]
+    
+    static let AppSpecificMenuItem1 = ZMMenuItem(displayTitle: "App Specific Menu Item 1",
+                                            destinationVC: UIStoryboard(name: "ZMAppFoundation", bundle: MenuBundle).instantiateViewController(withIdentifier: "Acknowledgements"),
+                                            displayIcon: nil)
+    
+    static let AppSpecificMenuItem2 = ZMMenuItem(displayTitle: "App Specific Menu Item 2",
+                                                 destinationVC: UIStoryboard(name: "ZMAppFoundation", bundle: MenuBundle).instantiateViewController(withIdentifier: "Acknowledgements"),
+                                                 displayIcon: nil)
+    
+}
