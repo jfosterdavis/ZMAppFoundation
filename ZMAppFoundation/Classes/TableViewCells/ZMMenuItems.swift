@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-struct ZMMenuItems {
+public struct ZMMenuItems {
     
     static let MenuBundle:Bundle = Bundle(for: ZMMenuItem.self)
     
-    static let StandardItems: [ZMMenuItem] = [Acknowledgement
+    public static let StandardItems: [ZMMenuItem] = [Acknowledgement
     ]
     
     static let Acknowledgement = ZMMenuItem(displayTitle: "Acknowledgements",

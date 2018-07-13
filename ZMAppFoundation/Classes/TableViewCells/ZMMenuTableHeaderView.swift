@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ZMMenuTableHeaderView: UITableViewHeaderFooterView {
+public class ZMMenuTableHeaderView: UITableViewHeaderFooterView {
     
     @IBOutlet weak var bgImageView: UIImageView!
 

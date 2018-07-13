@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class ZMMenuTableCell: UITableViewCell {
+open class ZMMenuTableCell: UITableViewCell {
     
     @IBOutlet weak var menuItemLabel: UILabel!
     @IBOutlet weak var menuItemIconImageView: UIImageView!

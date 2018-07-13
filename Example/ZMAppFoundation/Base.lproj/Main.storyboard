@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="-918" y="721"/>
         </scene>
-        <!--Menu Table View Controller-->
+        <!--Example Menu Table View Controller-->
         <scene sceneID="MmC-d4-Mpp">
             <objects>
-                <tableViewController id="kRV-3a-imm" customClass="ZMMenuTableViewController" customModule="ZMAppFoundation" sceneMemberID="viewController">
+                <tableViewController id="kRV-3a-imm" customClass="ExampleMenuTableViewController" customModule="ZMAppFoundation_Example" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YuH-ZZ-zT8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,7 +102,7 @@
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="image" keyPath="topHeaderImage" value="Dragon"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="topHeaderHeight">
-                            <real key="value" value="300"/>
+                            <real key="value" value="250"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </tableViewController>

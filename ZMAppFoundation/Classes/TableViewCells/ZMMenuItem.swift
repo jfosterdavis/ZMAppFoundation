@@ -7,14 +7,14 @@
 
 import UIKit
 
-class ZMMenuItem: NSObject {
+open class ZMMenuItem: NSObject {
 
     var displayTitle: String
     var displayIcon: UIImage?
     var destinationVC: UIViewController
     
     // MARK: Initializers
-    init(displayTitle: String,
+    public init(displayTitle: String,
          destinationVC: UIViewController,
          displayIcon: UIImage? = nil) {
         

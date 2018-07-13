@@ -8,9 +8,14 @@ PODS:
 DEPENDENCIES:
   - ZMAppFoundation (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GaugeKit
+    - SideMenu
+
 EXTERNAL SOURCES:
   ZMAppFoundation:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
@@ -19,4 +24,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 2d841542f6710fcceb57422eeef5835f043fded2
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

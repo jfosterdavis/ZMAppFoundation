@@ -8,11 +8,13 @@
 import UIKit
 
 @IBDesignable
-class ZMMenuTableViewController: UITableViewController {
+open class ZMMenuTableViewController: UITableViewController {
 
-    let tableCellId = "ZMMenuTableCell"
-    let tableCellNibName = "ZMMenuTableCell"
-    let tableHeaderViewNibName = "ZMMenuTableHeaderView"
+    public let tableCellId = "ZMMenuTableCell"
+    public let tableCellNibName = "ZMMenuTableCell"
+    public let tableHeaderViewNibName = "ZMMenuTableHeaderView"
+    
+    open var zmAllMenuItems = [ZMMenuItem]()
     
     /******************************************************/
     /*******************///MARK: IBInspectable properties
@@ -32,11 +34,11 @@ class ZMMenuTableViewController: UITableViewController {
     /******************************************************/
 
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
                 
         // Set the bundle
-        let bundle = Bundle(for: type(of: self))
+        let bundle = Bundle(for: ZMMenuTableViewController.classForCoder())
         
         // Register table cell class from nib
         let cellNib = UINib(nibName: tableCellNibName, bundle: bundle)
@@ -46,10 +48,12 @@ class ZMMenuTableViewController: UITableViewController {
         let headerNib = UINib(nibName: tableHeaderViewNibName, bundle: bundle)
         tableView.register(headerNib, forHeaderFooterViewReuseIdentifier: tableHeaderViewNibName)
         
+        //load the menu items.  This is the function that should be overriden by dev implementing this class.
+        setZMAllMenuItems()
     }
     
 
-    override func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -57,15 +61,29 @@ class ZMMenuTableViewController: UITableViewController {
     /******************************************************/
     /*******************///MARK: Delegate and DataSource
     /******************************************************/
+    
+    /******** functions to be overriden by subclasses dev ****/
+    
+    //builds the array that will be used to list menu items.  This array is stored in
+    open func setZMAllMenuItems() {
+        //default function is to take the standard items coded into ZMMenuItems.StandardItems
+        
+        var allZMMenuItems = [ZMMenuItem]()
+        allZMMenuItems.append(contentsOf: ZMMenuItems.StandardItems)
+        
+        zmAllMenuItems = allZMMenuItems
+    }
 
-    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ZMMenuItems.StandardItems.count
     }
     
-    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    //this function not intended to be overridden
+    override open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: tableCellId, for: indexPath as IndexPath) as! ZMMenuTableCell
         
-        let menuItem = ZMMenuItems.StandardItems[indexPath.row]
+        
+        let menuItem = zmAllMenuItems[indexPath.row]
         
         //set the appearance based on IBDesignables in this class.  do this before loadCell.
         cell.bgColor = cellBGColor
@@ -75,9 +93,9 @@ class ZMMenuTableViewController: UITableViewController {
         return cell
     }
     
-    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let menuItem = ZMMenuItems.StandardItems[indexPath.row]
+        let menuItem = zmAllMenuItems[indexPath.row]
         
         menuItem.itemSelected()
     }
@@ -86,7 +104,7 @@ class ZMMenuTableViewController: UITableViewController {
     /*******************///MARK: Fancy Tableview settings
     /******************************************************/
 
-    override public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    override open func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         
         
@@ -106,7 +124,7 @@ class ZMMenuTableViewController: UITableViewController {
         return header
     }
     
-    override public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    override open func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
         //the header image only shows in section 0
         if section == 0 {
