@@ -1,6 +1,12 @@
 use_frameworks!
 
+def swift4_overrides
+    pod 'GaugeKit', git: 'https://github.com/skywinder/GaugeKit', branch: 'swift-4'
+end
+
 target 'ZMAppFoundation_Example' do
+    swift4_overrides
+    
   pod 'ZMAppFoundation', :path => '../'
 
   target 'ZMAppFoundation_Tests' do
