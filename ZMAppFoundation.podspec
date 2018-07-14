@@ -29,6 +29,7 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 - providing feedback for the app from within the app
 - Notifications look and feel
 - About section
+- error notifications
                        DESC
 
   s.homepage         = 'https://github.com/jfosterdavis/ZMAppFoundation'

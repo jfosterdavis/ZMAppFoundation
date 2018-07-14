@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZMMenuTableFooterView" customModule="ZMAppFoundation" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZMMenuTableFooterView" customModule="ZMAppFoundation">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="227-j0-BvJ">
+                    <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okc-eU-Zqp">
+                    <rect key="frame" x="67" y="0.0" width="254" height="67"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Okc-eU-Zqp" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="1I3-Uv-mb0"/>
+                <constraint firstItem="227-j0-BvJ" firstAttribute="height" secondItem="vUN-kp-3ea" secondAttribute="height" id="H2K-Vp-tJB"/>
+                <constraint firstItem="227-j0-BvJ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="JMg-KA-IKQ"/>
+                <constraint firstItem="Okc-eU-Zqp" firstAttribute="height" secondItem="vUN-kp-3ea" secondAttribute="height" id="KTZ-tF-eJQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Okc-eU-Zqp" secondAttribute="trailing" id="PcC-QS-6Bo"/>
+                <constraint firstItem="Okc-eU-Zqp" firstAttribute="leading" secondItem="227-j0-BvJ" secondAttribute="trailing" id="Wgr-vY-70Q"/>
+                <constraint firstItem="227-j0-BvJ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="1:1" id="bVx-nG-Vr0"/>
+                <constraint firstItem="227-j0-BvJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wke-zO-zYx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="footerLabel" destination="Okc-eU-Zqp" id="OBx-rk-6dW"/>
+                <outlet property="iconImageView" destination="227-j0-BvJ" id="f1q-FN-q1r"/>
+            </connections>
+            <point key="canvasLocation" x="6.5" y="-246.5"/>
+        </view>
+    </objects>
+</document>

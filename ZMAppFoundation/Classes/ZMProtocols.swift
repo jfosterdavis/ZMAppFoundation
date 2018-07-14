@@ -60,3 +60,6 @@ extension ZMXib where Self: UIView {
 //        zmContentView?.prepareForInterfaceBuilder()
 //    }
 }
+
+//TODO: Add error user protocol
+

@@ -104,6 +104,10 @@
                         <userDefinedRuntimeAttribute type="number" keyPath="topHeaderHeight">
                             <real key="value" value="250"/>
                         </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="image" keyPath="bottomFooterImage" value="Dragon"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="bottomFooterHeight">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Llm-lo-Czy" userLabel="First Responder" sceneMemberID="firstResponder"/>

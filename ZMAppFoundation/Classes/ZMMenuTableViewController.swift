@@ -13,6 +13,7 @@ open class ZMMenuTableViewController: UITableViewController {
     public let tableCellId = "ZMMenuTableCell"
     public let tableCellNibName = "ZMMenuTableCell"
     public let tableHeaderViewNibName = "ZMMenuTableHeaderView"
+    public let tableFooterViewNibName = "ZMMenuTableFooterView"
     
     open var zmAllMenuItems = [ZMMenuItem]()
     
@@ -24,8 +25,11 @@ open class ZMMenuTableViewController: UITableViewController {
      Sets the color of the gauge value indicator curve.  This is done in cellForRow
      */
     @IBInspectable open var cellBGColor: UIColor = UIColor.purple
+   
     @IBInspectable open var topHeaderImage: UIImage?
     @IBInspectable open var topHeaderHeight: CGFloat = 0
+    @IBInspectable open var bottomFooterImage: UIImage?
+    @IBInspectable open var bottomFooterHeight: CGFloat = 0
     
     
     
@@ -47,6 +51,10 @@ open class ZMMenuTableViewController: UITableViewController {
         //Register the header view
         let headerNib = UINib(nibName: tableHeaderViewNibName, bundle: bundle)
         tableView.register(headerNib, forHeaderFooterViewReuseIdentifier: tableHeaderViewNibName)
+        
+        //Register the footer view
+        let footerNib = UINib(nibName: tableFooterViewNibName, bundle: bundle)
+        tableView.register(footerNib, forHeaderFooterViewReuseIdentifier: tableFooterViewNibName)
         
         //load the menu items.  This is the function that should be overriden by dev implementing this class.
         setZMAllMenuItems()
@@ -124,6 +132,26 @@ open class ZMMenuTableViewController: UITableViewController {
         return header
     }
     
+    override open func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        
+        
+        
+        //dequeue the footer view
+        let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableFooterViewNibName) as! ZMMenuTableFooterView
+        //if the user set an image for this table
+        if let bootomFooterImage = bottomFooterImage {
+            //get the image to put in the background
+            //        let bundle = Bundle(for: type(of: self))
+            //        let headerImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
+            
+            //give the image to the headerview
+            footer.iconImageView.image = bootomFooterImage
+        }
+        
+        
+        return footer
+    }
+    
     override open func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
         //the header image only shows in section 0
@@ -136,6 +164,29 @@ open class ZMMenuTableViewController: UITableViewController {
                     return topHeaderHeight
                 } else {  //else show size derrived from the image height
                     return topHeaderImage.size.height
+                }
+            } else { //if there is no custom image, don't show the top header.
+                return 0
+            }
+        } else {
+            //this is not the top section, return tv default as set in IB
+            return tableView.sectionHeaderHeight
+        }
+        
+    }
+    
+    override open func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        
+        //the footer image only shows in section 0
+        if section == 0 {
+            
+            //if there is an image set for the top image
+            if let bottomFooterImage = bottomFooterImage {
+                //if the specified a height is more than default of 0, use the specified height
+                if bottomFooterHeight != 0 {
+                    return bottomFooterHeight
+                } else {  //else show size derrived from the image height
+                    return bottomFooterImage.size.height
                 }
             } else { //if there is no custom image, don't show the top header.
                 return 0
