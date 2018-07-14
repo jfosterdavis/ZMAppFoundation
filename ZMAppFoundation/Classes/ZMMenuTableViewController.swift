@@ -24,7 +24,9 @@ open class ZMMenuTableViewController: UITableViewController {
     /**
      Sets the color of the gauge value indicator curve.  This is done in cellForRow
      */
-    @IBInspectable open var cellBGColor: UIColor = UIColor.purple
+    @IBInspectable open var rowHeight: CGFloat = 20
+    
+    @IBInspectable open var bGColor: UIColor = UIColor.purple
    
     @IBInspectable open var headerImg: UIImage?
     @IBInspectable open var headerHeight: CGFloat = 0
@@ -55,6 +57,11 @@ open class ZMMenuTableViewController: UITableViewController {
         //Register the footer view
         let footerNib = UINib(nibName: tableFooterViewNibName, bundle: bundle)
         tableView.register(footerNib, forHeaderFooterViewReuseIdentifier: tableFooterViewNibName)
+        
+        //set the background view for the table
+        let backgroundView = ZMMenuTableBackgroundView()
+        backgroundView.backgroundColor = bGColor
+        tableView.backgroundView = backgroundView
         
         //load the menu items.  This is the function that should be overriden by dev implementing this class.
         setZMAllMenuItems()
@@ -94,7 +101,8 @@ open class ZMMenuTableViewController: UITableViewController {
         let menuItem = zmAllMenuItems[indexPath.row]
         
         //set the appearance based on IBDesignables in this class.  do this before loadCell.
-        cell.bgColor = cellBGColor
+        //cell.bgColor = bGColor
+        
         
         cell.loadCell(from: menuItem)
     
@@ -196,6 +204,11 @@ open class ZMMenuTableViewController: UITableViewController {
             return tableView.sectionHeaderHeight
         }
         
+    }
+    
+    override open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        return rowHeight
     }
     
     
