@@ -8,14 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMAppFoundation'
-  s.version          = '0.1.1'
+  s.version          = '0.1.5'
   s.summary          = 'A foundation for Zero Mu iOS apps.'
 
 # This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 Includes the fundamental things needed to make simple utility apps within the Zero Mu look and feel.  Includes these common functionalities to be easily implimented in each utility app to maximize code reuse.

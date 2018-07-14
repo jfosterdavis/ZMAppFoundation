@@ -121,13 +121,13 @@
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="image" keyPath="footerImg" value="Dragon"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="footerHeight">
-                            <real key="value" value="10"/>
+                            <real key="value" value="30"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="bGColor">
                             <color key="value" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
-                            <real key="value" value="100"/>
+                            <real key="value" value="500"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </tableViewController>
