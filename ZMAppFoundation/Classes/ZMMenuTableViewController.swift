@@ -26,10 +26,10 @@ open class ZMMenuTableViewController: UITableViewController {
      */
     @IBInspectable open var cellBGColor: UIColor = UIColor.purple
    
-    @IBInspectable open var topHeaderImage: UIImage?
-    @IBInspectable open var topHeaderHeight: CGFloat = 0
-    @IBInspectable open var bottomFooterImage: UIImage?
-    @IBInspectable open var bottomFooterHeight: CGFloat = 0
+    @IBInspectable open var headerImg: UIImage?
+    @IBInspectable open var headerHeight: CGFloat = 0
+    @IBInspectable open var footerImg: UIImage?
+    @IBInspectable open var footerHeight: CGFloat = 0
     
     
     
@@ -119,13 +119,13 @@ open class ZMMenuTableViewController: UITableViewController {
         //dequeue the header view
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableHeaderViewNibName) as! ZMMenuTableHeaderView
         //if the user set an image for this table
-        if let topHeaderImage = topHeaderImage {
+        if let headerImg = headerImg {
             //get the image to put in the background
             //        let bundle = Bundle(for: type(of: self))
             //        let headerImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
             
             //give the image to the headerview
-            header.bgImageView.image = topHeaderImage
+            header.bgImageView.image = headerImg
         }
         
         
@@ -139,7 +139,7 @@ open class ZMMenuTableViewController: UITableViewController {
         //dequeue the footer view
         let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: tableFooterViewNibName) as! ZMMenuTableFooterView
         //if the user set an image for this table
-        if let bootomFooterImage = bottomFooterImage {
+        if let bootomFooterImage = footerImg {
             //get the image to put in the background
             //        let bundle = Bundle(for: type(of: self))
             //        let headerImage:UIImage = UIImage(named: "mosque", in: bundle, compatibleWith: nil)!
@@ -158,12 +158,12 @@ open class ZMMenuTableViewController: UITableViewController {
         if section == 0 {
         
             //if there is an image set for the top image
-            if let topHeaderImage = topHeaderImage {
+            if let headerImg = headerImg {
                 //if the specified a height is more than default of 0, use the specified height
-                if topHeaderHeight != 0 {
-                    return topHeaderHeight
+                if headerHeight != 0 {
+                    return headerHeight
                 } else {  //else show size derrived from the image height
-                    return topHeaderImage.size.height
+                    return headerImg.size.height
                 }
             } else { //if there is no custom image, don't show the top header.
                 return 0
@@ -181,12 +181,12 @@ open class ZMMenuTableViewController: UITableViewController {
         if section == 0 {
             
             //if there is an image set for the top image
-            if let bottomFooterImage = bottomFooterImage {
+            if let footerImg = footerImg {
                 //if the specified a height is more than default of 0, use the specified height
-                if bottomFooterHeight != 0 {
-                    return bottomFooterHeight
+                if footerHeight != 0 {
+                    return footerHeight
                 } else {  //else show size derrived from the image height
-                    return bottomFooterImage.size.height
+                    return footerImg.size.height
                 }
             } else { //if there is no custom image, don't show the top header.
                 return 0

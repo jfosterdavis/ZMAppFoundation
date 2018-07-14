@@ -100,12 +100,12 @@
                         <userDefinedRuntimeAttribute type="color" keyPath="cellBGColor">
                             <color key="value" red="0.94097222219999999" green="0.19791666669999999" blue="0.94097222219999999" alpha="1" colorSpace="calibratedRGB"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="image" keyPath="topHeaderImage" value="Dragon"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="topHeaderHeight">
+                        <userDefinedRuntimeAttribute type="image" keyPath="headerImg" value="Dragon"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="headerHeight">
                             <real key="value" value="250"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="image" keyPath="bottomFooterImage" value="Dragon"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="bottomFooterHeight">
+                        <userDefinedRuntimeAttribute type="image" keyPath="footerImg" value="Dragon"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="footerHeight">
                             <real key="value" value="10"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
