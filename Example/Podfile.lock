@@ -1,27 +1,35 @@
 PODS:
   - GaugeKit (0.4.5)
   - SideMenu (3.1.5)
-  - ZMAppFoundation (0.1.1):
+  - ZMAppFoundation (0.1.5):
     - GaugeKit
     - SideMenu
 
 DEPENDENCIES:
+  - GaugeKit (from `https://github.com/skywinder/GaugeKit`, branch `swift-4`)
   - ZMAppFoundation (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - GaugeKit
     - SideMenu
 
 EXTERNAL SOURCES:
+  GaugeKit:
+    :branch: swift-4
+    :git: https://github.com/skywinder/GaugeKit
   ZMAppFoundation:
     :path: "../"
+
+CHECKOUT OPTIONS:
+  GaugeKit:
+    :commit: f83f650e08ab5f10f1495bca0c54401dae01c11a
+    :git: https://github.com/skywinder/GaugeKit
 
 SPEC CHECKSUMS:
   GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
-  ZMAppFoundation: 773324575ddcc51d2e62f5bb04591e2c7198f284
+  ZMAppFoundation: 52b566896a8f836c33a67017374caadd7091f3e2
 
-PODFILE CHECKSUM: 2d841542f6710fcceb57422eeef5835f043fded2
+PODFILE CHECKSUM: 66992743a6ad9146b765a5a1a33cdfe69c0fa398
 
 COCOAPODS: 1.5.3
