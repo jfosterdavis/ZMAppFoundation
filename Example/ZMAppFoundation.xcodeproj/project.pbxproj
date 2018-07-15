@@ -15,8 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9363BE1B72D60288C624241D /* Pods_ZMAppFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DC1207A9C03912B42C2CAE /* Pods_ZMAppFoundation_Example.framework */; };
-		F62C12C220F8F83100A857CF /* ExampleMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C12C120F8F83100A857CF /* ExampleMenuTableViewController.swift */; };
-		F62C12C420F8FBD000A857CF /* ExampleMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C12C320F8FBD000A857CF /* ExampleMenuItems.swift */; };
+		F62C12C420F8FBD000A857CF /* CustomMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C12C320F8FBD000A857CF /* CustomMenuItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,7 @@
 		89FD2F69D91E9FDC09E99AD1 /* Pods-ZMAppFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppFoundation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMAppFoundation_Tests/Pods-ZMAppFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5465E1892EAC2320BC3963E /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMAppFoundation_Example/Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2DC1207A9C03912B42C2CAE /* Pods_ZMAppFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F62C12C120F8F83100A857CF /* ExampleMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMenuTableViewController.swift; sourceTree = "<group>"; };
-		F62C12C320F8FBD000A857CF /* ExampleMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMenuItems.swift; sourceTree = "<group>"; };
+		F62C12C320F8FBD000A857CF /* CustomMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuItems.swift; sourceTree = "<group>"; };
 		F687217F2013D26500CC8C77 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68721802013D26500CC8C77 /* ZMAppFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZMAppFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,8 +99,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				F62C12C120F8F83100A857CF /* ExampleMenuTableViewController.swift */,
-				F62C12C320F8FBD000A857CF /* ExampleMenuItems.swift */,
+				F62C12C320F8FBD000A857CF /* CustomMenuItems.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -337,9 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62C12C420F8FBD000A857CF /* ExampleMenuItems.swift in Sources */,
+				F62C12C420F8FBD000A857CF /* CustomMenuItems.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				F62C12C220F8F83100A857CF /* ExampleMenuTableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

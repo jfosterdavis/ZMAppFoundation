@@ -15,8 +15,11 @@ public struct ZMMenuItems {
     public static let StandardItems: [ZMMenuItem] = [Acknowledgement
     ]
     
+    public static var CustomItems = [ZMMenuItem]()
+    
     static let Acknowledgement = ZMMenuItem(displayTitle: "Acknowledgements",
                                             destinationVC: UIStoryboard(name: "ZMAppFoundation", bundle: MenuBundle).instantiateViewController(withIdentifier: "Acknowledgements"),
                                             displayIcon: nil)
     
 }
+

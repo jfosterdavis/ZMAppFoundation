@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         gauge.titleLabel.text = "set this title text in viewDidLoad"
         gauge.gaugeIndicatedValue = 9
+    
+        //add custom menu items to the ZMMenu
+        ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
         
     }
 

@@ -80,10 +80,11 @@ open class ZMMenuTableViewController: UITableViewController {
     /******** functions to be overriden by subclasses dev ****/
     
     //builds the array that will be used to list menu items.  This array is stored in
-    open func setZMAllMenuItems() {
+    private func setZMAllMenuItems() {
         //default function is to take the standard items coded into ZMMenuItems.StandardItems
         
         var allZMMenuItems = [ZMMenuItem]()
+        allZMMenuItems.append(contentsOf: ZMMenuItems.CustomItems)
         allZMMenuItems.append(contentsOf: ZMMenuItems.StandardItems)
         
         zmAllMenuItems = allZMMenuItems

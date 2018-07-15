@@ -1,5 +1,5 @@
 //
-//  ExampleMenuItems.swift
+//  CustomMenuItems.swift
 //  ZMAppFoundation_Example
 //
 //  Created by Jacob Foster Davis on 13Jul18.
@@ -9,11 +9,11 @@
 import ZMAppFoundation
 import UIKit
 
-struct ExampleMenuItems {
+struct CustomMenuItems {
     
     static let MenuBundle:Bundle = Bundle(for: ZMMenuItem.self)
     
-    static let StandardItems: [ZMMenuItem] = [AppSpecificMenuItem1, AppSpecificMenuItem2]
+    static let Items: [ZMMenuItem] = [AppSpecificMenuItem1, AppSpecificMenuItem2]
     
     static let AppSpecificMenuItem1 = ZMMenuItem(displayTitle: "App Specific Menu Item 1",
                                             destinationVC: UIStoryboard(name: "ZMAppFoundation", bundle: MenuBundle).instantiateViewController(withIdentifier: "Acknowledgements"),
