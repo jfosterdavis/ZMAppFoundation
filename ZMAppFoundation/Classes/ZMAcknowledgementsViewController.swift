@@ -27,8 +27,14 @@ open class ZMAcknowledgementsViewController: UIViewController {
         //clear text
         textView.text? = ""
         
-        //load text from data structure
-        for ack in ZMAcknowledgementsContent.StandardContent {
+        //load text from custom structure
+        for ack in ZMAcknowledgementsContent.CustomItems {
+            textView.text?.append(contentsOf: ack)
+            textView.text?.append("\n\n")
+        }
+        
+        //load standard acks text from data structure
+        for ack in ZMAcknowledgementsContent.StandardItems {
             textView.text?.append(contentsOf: ack)
             textView.text?.append("\n\n")
         }

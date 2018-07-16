@@ -19,8 +19,18 @@ class ViewController: UIViewController {
         gauge.titleLabel.text = "set this title text in viewDidLoad"
         gauge.gaugeIndicatedValue = 9
     
+        //load the Zero Mu App Foundation Data
+        zMAppLoadData()
+        
+    }
+    
+    func zMAppLoadData() {
+        
         //add custom menu items to the ZMMenu
         ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
+        
+        //add acknowledgement items to the Ack page
+        ZMAcknowledgementsContent.CustomContent.append(contentsOf: CustomAcknowledgements.Items)
         
     }
 

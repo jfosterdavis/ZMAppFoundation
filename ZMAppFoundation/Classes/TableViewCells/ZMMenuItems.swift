@@ -24,9 +24,9 @@ public struct ZMMenuItems {
 }
 
 public struct ZMAcknowledgementsContent {
-    public static let StandardContent: [String] = [Copyright, ZMFoundation]
+    public static let StandardItems: [String] = [Copyright, ZMFoundation]
     
-    public static var CustomContent = [String]()
+    public static var CustomItems = [String]()
     
     static let Copyright = "Copyright (c) 2018 Zero Mu, LLC"
     

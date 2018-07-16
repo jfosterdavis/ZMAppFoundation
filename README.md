@@ -28,7 +28,7 @@ pod 'ZMAppFoundation'
 
 ## Usage
 ### Adding custom menu items
-- append an array of ZMMenuItem to the ZMMenuItems.CustomItems in the initial view controller of the app.
+- append any number of `ZMMenuItem` to the `ZMMenuItems.CustomItems` in the initial view controller of the app.
 example:
 ```swift
 override func viewDidLoad() {
@@ -37,6 +37,18 @@ super.viewDidLoad()
 
 //add custom menu items to the ZMMenu
 ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
+}
+```
+### Adding custom Acknowledgement Page items
+- append  `String` objects to the `ZMAcknowlegementContent.CustomItems` in the initial view controller of the app.
+example:
+```
+override func viewDidLoad() {
+super.viewDidLoad()
+// Do any additional setup after loading the view, typically from a nib.
+
+//add acknowledgement items to the Ack page
+ZMAcknowledgementsContent.CustomContent.append(contentsOf: CustomAcknowledgements.Items)
 }
 ```
 
