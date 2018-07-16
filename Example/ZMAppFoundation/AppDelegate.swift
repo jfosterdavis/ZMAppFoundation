@@ -13,7 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    /******************************************************/
+    /******************* ZMAppFoundation addition **************/
+    /******************************************************/
+    //core data stack. uncomment to hook up to your Model
+    //let stack = CoreDataStack(modelName: "Model")!
+    /******************************************************/
+    /******************************************************/
+    /******************************************************/
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
