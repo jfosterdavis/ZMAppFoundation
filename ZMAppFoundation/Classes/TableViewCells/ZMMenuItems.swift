@@ -23,3 +23,13 @@ public struct ZMMenuItems {
     
 }
 
+public struct ZMAcknowledgementsContent {
+    public static let StandardContent: [String] = [Copyright, ZMFoundation]
+    
+    public static var CustomContent = [String]()
+    
+    static let Copyright = "Copyright (c) 2018 Zero Mu, LLC"
+    
+    static let ZMFoundation = "This app uses the ZMAppFoundation framework to deliver you a consistent and well-tested app experience.  https://cocoapods.org/pods/ZMAppFoundation"
+
+}

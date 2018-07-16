@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="986-Ep-wvg">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="986-Ep-wvg">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Acknowledgements" id="85e-vs-8QK">
                                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="KDW-gZ-F8x">
@@ -31,17 +30,35 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQr-mj-6Sy">
+                                <rect key="frame" x="-0.5" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oQr-mj-6Sy" firstAttribute="width" secondItem="P9e-ph-ow6" secondAttribute="width" id="Dtw-Ts-brc"/>
+                            <constraint firstItem="986-Ep-wvg" firstAttribute="centerX" secondItem="LUd-LT-9wS" secondAttribute="centerX" id="Jpx-8v-rkK"/>
+                            <constraint firstItem="986-Ep-wvg" firstAttribute="width" secondItem="P9e-ph-ow6" secondAttribute="width" id="UC3-te-e1O"/>
+                            <constraint firstItem="LUd-LT-9wS" firstAttribute="bottom" secondItem="oQr-mj-6Sy" secondAttribute="bottom" id="dEx-ym-5nZ"/>
+                            <constraint firstItem="oQr-mj-6Sy" firstAttribute="centerX" secondItem="LUd-LT-9wS" secondAttribute="centerX" id="fDC-MK-QmS"/>
+                            <constraint firstItem="986-Ep-wvg" firstAttribute="top" secondItem="LUd-LT-9wS" secondAttribute="top" id="lNH-rC-3a1"/>
+                            <constraint firstItem="oQr-mj-6Sy" firstAttribute="top" secondItem="986-Ep-wvg" secondAttribute="bottom" id="wyX-oR-OsG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LUd-LT-9wS"/>
                     </view>
                     <connections>
                         <outlet property="doneButton" destination="KDW-gZ-F8x" id="U4A-Zt-zwX"/>
+                        <outlet property="textView" destination="oQr-mj-6Sy" id="3NC-Dy-ylu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EF6-jc-I0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="160"/>
+            <point key="canvasLocation" x="116" y="158.77061469265368"/>
         </scene>
     </scenes>
 </document>

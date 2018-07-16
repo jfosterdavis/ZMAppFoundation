@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/ZMAppFoundation.svg?style=flat)](http://cocoapods.org/pods/ZMAppFoundation)
 [![Platform](https://img.shields.io/cocoapods/p/ZMAppFoundation.svg?style=flat)](http://cocoapods.org/pods/ZMAppFoundation)
 
+## Features
+Easily add core functions to Zero Mu apps
+- sliding menu
+- Acknowledgements page
+- 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -18,6 +24,20 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ZMAppFoundation'
+```
+
+## Usage
+### Adding custom menu items
+- append an array of ZMMenuItem to the ZMMenuItems.CustomItems in the initial view controller of the app.
+example:
+```swift
+override func viewDidLoad() {
+super.viewDidLoad()
+// Do any additional setup after loading the view, typically from a nib.
+
+//add custom menu items to the ZMMenu
+ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
+}
 ```
 
 ## Author
