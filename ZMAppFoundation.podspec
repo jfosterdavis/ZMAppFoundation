@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMAppFoundation'
-  s.version          = '0.1.6'
+  s.version          = '0.2.0'
   s.summary          = 'A foundation for Zero Mu iOS apps.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 - Tabbed navigation with Settings menu
 - "Whats new" slides that display to user optionally during a minor update
 - Zero Mu Ad implementation
-- Acknowledgements pulled from various libraries, dependencies
+- About section pulled from various libraries, dependencies
 - version #
 - Zero Mu Logo
 - app store rating and prompting
@@ -26,6 +26,8 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 - Notifications look and feel
 - About section
 - error notifications
+- common utilities
+- core data helpers
                        DESC
 
   s.homepage         = 'https://github.com/jfosterdavis/ZMAppFoundation'
