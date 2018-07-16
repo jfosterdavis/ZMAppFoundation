@@ -1,6 +1,16 @@
 # OS X
 .DS_Store
 
+# Common ZMAppFoundation
+*Secrets.swift
+
+## Google Ads
+Charles/GoogleService-Info.plist
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
 # Xcode
 build/
 *.pbxuser
