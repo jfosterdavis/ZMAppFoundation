@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
         
         //add acknowledgement items to the Ack page
-        ZMAcknowledgementsContent.CustomContent.append(contentsOf: CustomAcknowledgements.Items)
+        ZMAcknowledgementsContent.CustomItems.append(contentsOf: CustomAcknowledgements.Items)
         
     }
 
