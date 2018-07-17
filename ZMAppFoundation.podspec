@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMAppFoundation'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A foundation for Zero Mu iOS apps.'
 
 # This description is used to generate tags and improve search results.
