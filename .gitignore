@@ -7,6 +7,9 @@
 ## Google Ads
 Charles/GoogleService-Info.plist
 
+## non-git resources folder
+Non-Git Resources/
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace

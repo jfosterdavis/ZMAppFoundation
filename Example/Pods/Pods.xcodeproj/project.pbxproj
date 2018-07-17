@@ -57,6 +57,7 @@
 		EB3054C10F456B8DE1854C96A208C957 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B82240FAC860684E4F7A5B2E4A4EF476 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBE69F0B5633AC592CD4E148E50D8635 /* ZMProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1D06291A096433E101A5F38657803 /* ZMProtocols.swift */; };
 		F678D74F20FD0B9600B2770A /* CoreData in Resources */ = {isa = PBXBuildFile; fileRef = F678D74E20FD0B9600B2770A /* CoreData */; };
+		F678D75920FD8DEF00B2770A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678D75820FD8DEF00B2770A /* Secrets.swift */; };
 		F772FB6D1B77151EEF1CF9774D81D7FA /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FAE196EB796B524DCF2C011BB6BBC /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6F094B56DFEC888F627AE6C4C553DA /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -190,6 +191,7 @@
 		E92622A1BC73467814A0398BFCC0C320 /* GaugeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GaugeKit.modulemap; sourceTree = "<group>"; };
 		F4C1D06291A096433E101A5F38657803 /* ZMProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMProtocols.swift; path = ZMAppFoundation/Classes/ZMProtocols.swift; sourceTree = "<group>"; };
 		F678D74E20FD0B9600B2770A /* CoreData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CoreData; path = ZMAppFoundation/Classes/CoreData; sourceTree = "<group>"; };
+		F678D75820FD8DEF00B2770A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ZMAppFoundation/Classes/Secrets.swift; sourceTree = "<group>"; };
 		F6FEA35BF4473AC0B9E251C533C8A585 /* Pods-ZMAppFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FDBDF745CD13B2F0628A6879B6373474 /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,6 +270,7 @@
 				C81E0F7C8AF10A3FAF993DA19AB4BC47 /* Resources */,
 				47BFA07824985F939BA8C43DD64E1E03 /* Support Files */,
 				8E9290E554F24B1C492B9582648EA9CB /* TableViewCells */,
+				F678D75820FD8DEF00B2770A /* Secrets.swift */,
 			);
 			name = ZMAppFoundation;
 			path = ../..;
@@ -689,6 +692,7 @@
 				8E687C136B2706252708756FCE7D5162 /* ZMMenuTableCell.swift in Sources */,
 				11D0A661456C988FD3948417AF81B944 /* ZMMenuTableFooterView.swift in Sources */,
 				861D956765E46CD8F3B8D01E53126E86 /* ZMMenuTableHeaderView.swift in Sources */,
+				F678D75920FD8DEF00B2770A /* Secrets.swift in Sources */,
 				3330F73CC142B48366F207B8E5D455D4 /* ZMMenuTableViewController.swift in Sources */,
 				8558013495B199B91B4CE62A07D6188D /* ZMPieTimerView.swift in Sources */,
 				EBE69F0B5633AC592CD4E148E50D8635 /* ZMProtocols.swift in Sources */,

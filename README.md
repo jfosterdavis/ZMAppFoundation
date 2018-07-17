@@ -42,7 +42,7 @@ ZMMenuItems.CustomItems.append(contentsOf: CustomMenuItems.Items)
 ### Adding custom Acknowledgement Page items
 - append  `String` objects to the `ZMAcknowlegementContent.CustomItems` in the initial view controller of the app.
 example:
-```
+```swift
 override func viewDidLoad() {
 super.viewDidLoad()
 // Do any additional setup after loading the view, typically from a nib.
@@ -51,6 +51,9 @@ super.viewDidLoad()
 ZMAcknowledgementsContent.CustomContent.append(contentsOf: CustomAcknowledgements.Items)
 }
 ```
+
+## Secrets, private resources
+- the framework assumes that you have file named `Secrets.swift`, and this file is included in .gitignore.  Put any secret resources such as passwords in a file like this.
 
 ## Author
 
