@@ -17,9 +17,9 @@ open class CoreDataViewController: UIViewController {
     /******************************************************/
     //MARK: - Properties
     
-    var frcDict : [String:NSFetchedResultsController<NSFetchRequestResult>] = [:]
+    public var frcDict : [String:NSFetchedResultsController<NSFetchRequestResult>] = [:]
     
-    var stack: CoreDataStack!
+    public var stack: CoreDataStack!
     
     /******************************************************/
     /******************* Life Cycle **************/

@@ -20,7 +20,7 @@ public struct CoreDataStack {
     internal let dbURL: URL
     internal let persistingContext: NSManagedObjectContext
     internal let backgroundContext: NSManagedObjectContext
-    let context: NSManagedObjectContext
+    public let context: NSManagedObjectContext
     
     // MARK: Initializers
     
