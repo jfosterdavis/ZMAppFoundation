@@ -26,7 +26,7 @@ open class CoreDataNSObject: NSObject {
     /******************************************************/
     //MARK: - Life Cycle
     
-    override init() {
+    open override init() {
         super.init()
         
         // Get the stack
@@ -34,7 +34,7 @@ open class CoreDataNSObject: NSObject {
         stack = delegate.stack
     }
     
-    func executeSearch(frcKey: String) {
+    open func executeSearch(frcKey: String) {
         if let fc = frcDict[frcKey] {
             do {
                 try fc.performFetch()
@@ -44,7 +44,7 @@ open class CoreDataNSObject: NSObject {
         }
     }
     
-    func setupFetchedResultsController(frcKey: String, entityName: String, sortDescriptors: [NSSortDescriptor]? = nil,  predicate: NSPredicate? = nil) -> NSFetchedResultsController<NSFetchRequestResult> {
+    open func setupFetchedResultsController(frcKey: String, entityName: String, sortDescriptors: [NSSortDescriptor]? = nil,  predicate: NSPredicate? = nil) -> NSFetchedResultsController<NSFetchRequestResult> {
         
         //set up stack and fetchrequest
         // Get the stack
@@ -82,12 +82,12 @@ open class CoreDataNSObject: NSObject {
 
 extension CoreDataNSObject: NSFetchedResultsControllerDelegate {
     
-    func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    public func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         //about to make updates.  wrapping actions with updates will allow for animation and auto reloading
         //self.tableView.beginUpdates()
     }
     
-    func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+    public func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
         
         //if anObject is AnyObject {
             
@@ -123,7 +123,7 @@ extension CoreDataNSObject: NSFetchedResultsControllerDelegate {
             
         } 
     
-    func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    public func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         //finished with updates, allow table view to animate and reload
         //self.tableView.endUpdates()
     }

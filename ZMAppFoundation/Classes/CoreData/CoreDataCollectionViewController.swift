@@ -26,7 +26,7 @@ open class CoreDataCollectionViewController: CoreDataViewController, UICollectio
     /******************************************************/
     //MARK: - Life Cycle
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
      
         // Get the stack
@@ -41,12 +41,12 @@ open class CoreDataCollectionViewController: CoreDataViewController, UICollectio
     
     
     //When a user selects an item from the collection
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+   public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         print("This stub should be implimented by a child class")
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+   public func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         print("This stub should be implimented by a child class")
     }
     

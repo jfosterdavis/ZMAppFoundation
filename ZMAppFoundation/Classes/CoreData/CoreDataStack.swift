@@ -24,7 +24,7 @@ public struct CoreDataStack {
     
     // MARK: Initializers
     
-    init?(modelName: String) {
+    open init?(modelName: String) {
         
         // Assumes the model is in the main bundle
         guard let modelURL = Bundle.main.url(forResource: modelName, withExtension: "momd") else {
@@ -77,7 +77,7 @@ public struct CoreDataStack {
     
     // MARK: Utils
     
-    func addStoreCoordinator(_ storeType: String, configuration: String?, storeURL: URL, options : [NSObject:AnyObject]?) throws {
+    open func addStoreCoordinator(_ storeType: String, configuration: String?, storeURL: URL, options : [NSObject:AnyObject]?) throws {
         try coordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: dbURL, options: [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true])
     }
 }
@@ -86,7 +86,7 @@ public struct CoreDataStack {
 
 internal extension CoreDataStack  {
     
-    func dropAllData() throws {
+    public func dropAllData() throws {
         // delete all the objects in the db. This won't delete the files, it will
         // just leave empty tables.
         try coordinator.destroyPersistentStore(at: dbURL, ofType: NSSQLiteStoreType , options: nil)
@@ -100,7 +100,7 @@ extension CoreDataStack {
     
     typealias Batch = (_ workerContext: NSManagedObjectContext) -> ()
     
-    func performBackgroundBatchOperation(_ batch: @escaping Batch) {
+    public func performBackgroundBatchOperation(_ batch: @escaping Batch) {
         
         backgroundContext.perform() {
             
@@ -121,7 +121,7 @@ extension CoreDataStack {
 
 extension CoreDataStack {
     
-    func save() {
+    public func save() {
         // We call this synchronously, but it's a very fast
         // operation (it doesn't hit the disk). We need to know
         // when it ends so we can call the next save (on the persisting
@@ -150,7 +150,7 @@ extension CoreDataStack {
         }
     }
     
-    func autoSave(_ delayInSeconds : Int) {
+    public func autoSave(_ delayInSeconds : Int) {
         
         if delayInSeconds > 0 {
             do {
