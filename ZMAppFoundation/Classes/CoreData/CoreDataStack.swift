@@ -10,7 +10,7 @@ import CoreData
 
 // MARK: - CoreDataStack
 
-struct CoreDataStack {
+public struct CoreDataStack {
     
     // MARK: Properties
     

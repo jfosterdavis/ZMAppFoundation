@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 
-class CoreDataViewController: UIViewController {
+open class CoreDataViewController: UIViewController {
     
     /******************************************************/
     /******************* Properties **************/

@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 
-class CoreDataCollectionViewController: CoreDataViewController, UICollectionViewDelegate {
+open class CoreDataCollectionViewController: CoreDataViewController, UICollectionViewDelegate {
     
     /******************************************************/
     /******************* Properties **************/
@@ -65,63 +65,63 @@ extension CoreDataCollectionViewController {
         
         //stack.save()
         
-        if anObject is UnlockedCharacter {
-            
-            switch(type) {
-            case .insert:
-                //from apple documentation
-                stack.save()
-                //self.collectionView.insertItems(at: [newIndexPath!])
-                
-                //TODO: initiate download of terms?
-                //print("case insert")
-            case .delete:
-                //from apple documentation
-                //self.collectionView.deleteItems(at: [indexPath!])
-                //stack.save()
-                print("case delete")
-            case .update:
-                //from apple documentation
-                stack.save()
-                //nothing is needed here because when data is updated the collectionView displays datas current state
-                //print("case update")
-            case .move:
-                //TODO: move a cell... this may not be needed
-                //print("case move")
-                break
-            }
-            
-            //save
-            
-        } else if anObject is UnlockedPerk {
-            
-            switch(type) {
-            case .insert:
-                //from apple documentation
-                stack.save()
-                //self.collectionView.insertItems(at: [newIndexPath!])
-                
-                //TODO: initiate download of terms?
-            //print("case insert")
-            case .delete:
-                //from apple documentation
-                //self.collectionView.deleteItems(at: [indexPath!])
-                //stack.save()
-                print("case delete")
-            case .update:
-                //from apple documentation
-                stack.save()
-                //nothing is needed here because when data is updated the collectionView displays datas current state
-            //print("case update")
-            case .move:
-                //TODO: move a cell... this may not be needed
-                //print("case move")
-                break
-            }
-            
-            //save
-            
-        }
+//        if anObject is UnlockedCharacter {
+//            
+//            switch(type) {
+//            case .insert:
+//                //from apple documentation
+//                stack.save()
+//                //self.collectionView.insertItems(at: [newIndexPath!])
+//                
+//                //TODO: initiate download of terms?
+//                //print("case insert")
+//            case .delete:
+//                //from apple documentation
+//                //self.collectionView.deleteItems(at: [indexPath!])
+//                //stack.save()
+//                print("case delete")
+//            case .update:
+//                //from apple documentation
+//                stack.save()
+//                //nothing is needed here because when data is updated the collectionView displays datas current state
+//                //print("case update")
+//            case .move:
+//                //TODO: move a cell... this may not be needed
+//                //print("case move")
+//                break
+//            }
+//            
+//            //save
+//            
+//        } else if anObject is UnlockedPerk {
+//            
+//            switch(type) {
+//            case .insert:
+//                //from apple documentation
+//                stack.save()
+//                //self.collectionView.insertItems(at: [newIndexPath!])
+//                
+//                //TODO: initiate download of terms?
+//            //print("case insert")
+//            case .delete:
+//                //from apple documentation
+//                //self.collectionView.deleteItems(at: [indexPath!])
+//                //stack.save()
+//                print("case delete")
+//            case .update:
+//                //from apple documentation
+//                stack.save()
+//                //nothing is needed here because when data is updated the collectionView displays datas current state
+//            //print("case update")
+//            case .move:
+//                //TODO: move a cell... this may not be needed
+//                //print("case move")
+//                break
+//            }
+//            
+//            //save
+//            
+//        }
 
     }
     

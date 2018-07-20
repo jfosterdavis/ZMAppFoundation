@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 import UIKit
 
-class CoreDataNSObject: NSObject {
+open class CoreDataNSObject: NSObject {
     
     /******************************************************/
     /******************* Properties **************/
