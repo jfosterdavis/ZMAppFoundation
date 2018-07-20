@@ -26,7 +26,7 @@ open class CoreDataNSObject: NSObject {
     /******************************************************/
     //MARK: - Life Cycle
     
-    open override init() {
+    public override init() {
         super.init()
         
         // Get the stack

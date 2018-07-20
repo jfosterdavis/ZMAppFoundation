@@ -24,7 +24,7 @@ public struct CoreDataStack {
     
     // MARK: Initializers
     
-    open init?(modelName: String) {
+    public init?(modelName: String) {
         
         // Assumes the model is in the main bundle
         guard let modelURL = Bundle.main.url(forResource: modelName, withExtension: "momd") else {
@@ -77,7 +77,7 @@ public struct CoreDataStack {
     
     // MARK: Utils
     
-    open func addStoreCoordinator(_ storeType: String, configuration: String?, storeURL: URL, options : [NSObject:AnyObject]?) throws {
+    public func addStoreCoordinator(_ storeType: String, configuration: String?, storeURL: URL, options : [NSObject:AnyObject]?) throws {
         try coordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: dbURL, options: [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true])
     }
 }
@@ -86,7 +86,7 @@ public struct CoreDataStack {
 
 internal extension CoreDataStack  {
     
-    public func dropAllData() throws {
+    func dropAllData() throws {
         // delete all the objects in the db. This won't delete the files, it will
         // just leave empty tables.
         try coordinator.destroyPersistentStore(at: dbURL, ofType: NSSQLiteStoreType , options: nil)
@@ -98,7 +98,7 @@ internal extension CoreDataStack  {
 
 extension CoreDataStack {
     
-    typealias Batch = (_ workerContext: NSManagedObjectContext) -> ()
+    //typealias Batch = (_ workerContext: NSManagedObjectContext) -> ()
     
     public func performBackgroundBatchOperation(_ batch: @escaping Batch) {
         

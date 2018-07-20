@@ -56,12 +56,12 @@ open class CoreDataCollectionViewController: CoreDataViewController, UICollectio
 
 extension CoreDataCollectionViewController {
     
-    override func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    override public func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         //about to make updates.  wrapping actions with updates will allow for animation and auto reloading
         //self.collectionView.beginUpdates()
     }
     
-    override func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
+    override public func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
         
         //stack.save()
         
@@ -125,7 +125,7 @@ extension CoreDataCollectionViewController {
 
     }
     
-    override func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+    override public func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
         //finished with updates, allow table view to animate and reload
         //self.collectionView.endUpdates()
         if let cV = self.collectionView {

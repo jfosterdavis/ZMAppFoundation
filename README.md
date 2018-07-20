@@ -26,6 +26,20 @@ it, simply add the following line to your Podfile:
 pod 'ZMAppFoundation'
 ```
 
+### Extend AppDelegate
+ZMAppFoundation defines the AppDelegate so you must extend it if you want to add or override functionality
+```swift
+import UIKit
+import ZMAppFoundation
+
+extension AppDelegate {
+//put in anything that extends the ZMAppDelegate
+}
+```
+
+### Connect Core Data
+- App Delegate
+
 ## Usage
 ### Adding custom menu items
 - append any number of `ZMMenuItem` to the `ZMMenuItems.CustomItems` in the initial view controller of the app.

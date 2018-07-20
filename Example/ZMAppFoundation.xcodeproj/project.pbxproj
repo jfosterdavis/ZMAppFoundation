@@ -16,6 +16,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9363BE1B72D60288C624241D /* Pods_ZMAppFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DC1207A9C03912B42C2CAE /* Pods_ZMAppFoundation_Example.framework */; };
 		F62C12C420F8FBD000A857CF /* CustomMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C12C320F8FBD000A857CF /* CustomMenuItems.swift */; };
+		F63D12042102722200CE8C56 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63D12022102722200CE8C56 /* Model.xcdatamodeld */; };
 		F678D74720FCF66000B2770A /* CustomAcknowledgements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678D74620FCF66000B2770A /* CustomAcknowledgements.swift */; };
 		F678D75320FD0F1C00B2770A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F678D75220FD0F1C00B2770A /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		B5465E1892EAC2320BC3963E /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMAppFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMAppFoundation_Example/Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2DC1207A9C03912B42C2CAE /* Pods_ZMAppFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62C12C320F8FBD000A857CF /* CustomMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuItems.swift; sourceTree = "<group>"; };
+		F63D12032102722200CE8C56 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F678D74620FCF66000B2770A /* CustomAcknowledgements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAcknowledgements.swift; sourceTree = "<group>"; };
 		F678D75220FD0F1C00B2770A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		F687217F2013D26500CC8C77 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +178,7 @@
 		F63D11F32102574200CE8C56 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F63D12022102722200CE8C56 /* Model.xcdatamodeld */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			files = (
 				F62C12C420F8FBD000A857CF /* CustomMenuItems.swift in Sources */,
 				F678D74720FCF66000B2770A /* CustomAcknowledgements.swift in Sources */,
+				F63D12042102722200CE8C56 /* Model.xcdatamodeld in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -596,6 +600,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F63D12022102722200CE8C56 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F63D12032102722200CE8C56 /* Model.xcdatamodel */,
+			);
+			currentVersion = F63D12032102722200CE8C56 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
