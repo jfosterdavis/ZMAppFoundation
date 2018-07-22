@@ -61,6 +61,7 @@
 		F63D11FF2102715D00CE8C56 /* CoreDataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D11FB2102715C00CE8C56 /* CoreDataCollectionViewController.swift */; };
 		F63D12002102715D00CE8C56 /* CoreDataNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D11FC2102715C00CE8C56 /* CoreDataNSObject.swift */; };
 		F63D12012102715D00CE8C56 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D11FD2102715C00CE8C56 /* CoreDataViewController.swift */; };
+		F63D120A2102809C00CE8C56 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D12092102809C00CE8C56 /* CoreDataTableViewController.swift */; };
 		F678D75920FD8DEF00B2770A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678D75820FD8DEF00B2770A /* Secrets.swift */; };
 		F772FB6D1B77151EEF1CF9774D81D7FA /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FAE196EB796B524DCF2C011BB6BBC /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6F094B56DFEC888F627AE6C4C553DA /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -199,6 +200,7 @@
 		F63D11FB2102715C00CE8C56 /* CoreDataCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCollectionViewController.swift; sourceTree = "<group>"; };
 		F63D11FC2102715C00CE8C56 /* CoreDataNSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataNSObject.swift; sourceTree = "<group>"; };
 		F63D11FD2102715C00CE8C56 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		F63D12092102809C00CE8C56 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
 		F678D75820FD8DEF00B2770A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ZMAppFoundation/Classes/Secrets.swift; sourceTree = "<group>"; };
 		F6FEA35BF4473AC0B9E251C533C8A585 /* Pods-ZMAppFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FDBDF745CD13B2F0628A6879B6373474 /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 				F63D11FC2102715C00CE8C56 /* CoreDataNSObject.swift */,
 				F63D11FA2102715B00CE8C56 /* CoreDataStack.swift */,
 				F63D11FD2102715C00CE8C56 /* CoreDataViewController.swift */,
+				F63D12092102809C00CE8C56 /* CoreDataTableViewController.swift */,
 				17492562D556DFBB19D4F764C2D22B6C /* ZMAcknowledgementsViewController.swift */,
 				9F6D29CBA21BEEBB5B7D2400DEEAA709 /* ZMGaugeView.swift */,
 				33D99E1C41968D7A5B662F03EFCCB429 /* ZMMenuTableViewController.swift */,
@@ -712,6 +715,7 @@
 				3330F73CC142B48366F207B8E5D455D4 /* ZMMenuTableViewController.swift in Sources */,
 				8558013495B199B91B4CE62A07D6188D /* ZMPieTimerView.swift in Sources */,
 				EBE69F0B5633AC592CD4E148E50D8635 /* ZMProtocols.swift in Sources */,
+				F63D120A2102809C00CE8C56 /* CoreDataTableViewController.swift in Sources */,
 				4B6CE694C3149602B71AFD5F9645ADE6 /* ZMUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
