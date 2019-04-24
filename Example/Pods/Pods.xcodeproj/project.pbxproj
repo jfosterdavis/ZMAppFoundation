@@ -9,61 +9,61 @@
 /* Begin PBXBuildFile section */
 		00632DB14318C8BE7A7F0BEDE722CF56 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21820A17434D991B9D72F205F43F465E /* SideMenu-dummy.m */; };
 		00F32F560975895976E85C16078A7856 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650EEA24BFA11402EDAF5331C4D5605 /* Gauge.swift */; };
-		014139CEF20D7BA58809D657C472B706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51855FBD81B465D14C898484FEA68CD9 /* Assets.xcassets */; };
+		014139CEF20D7BA58809D657C472B706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BB80B75EE4FEA011F558130F782836 /* Assets.xcassets */; };
 		020819EE05A895F0D631B9DEF455E87C /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A493D09AEBE390D5EA106266852FD6C /* UITableViewVibrantCell.swift */; };
 		0366E3BBA500B2E586AB671C740211D8 /* GaugeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A17EB662DECB1548A6FB07380BD52C4 /* GaugeKit.framework */; };
-		0BEF099460A54084D54B44DBA587EF95 /* ZMMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350524374F9975C3417BFD29DA08F686 /* ZMMenuItem.swift */; };
-		11D0A661456C988FD3948417AF81B944 /* ZMMenuTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821E29217DA51B59DA6027DB0B4D159 /* ZMMenuTableFooterView.swift */; };
+		12714813538769017C4E142039F47B92 /* ZMMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7E4E693BFD0DB8A65AB95D084FD7B /* ZMMenuItems.swift */; };
 		129658B22B5400E82176E11E727DD645 /* GaugeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921523DA72F427F7B228646E94F08DC /* GaugeLine.swift */; };
 		1593F56B286C96F5F63C41B5220C3948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */; };
-		1BC7FC553660578727F826E69B82479D /* ZMGauge.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AC8B472C44136F1EB2356909F53B83 /* ZMGauge.xib */; };
+		1904899914017490AE83BEFB689C3420 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5987E83256D75C3D9CB5693AA6375F /* Secrets.swift */; };
+		1BC7FC553660578727F826E69B82479D /* ZMGauge.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BEBD70CB069FA6A56736DB8A77F929 /* ZMGauge.xib */; };
 		1BF90C1B1B15F6379BB116DF5BD99BC4 /* Gauge+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689971C4B14BCC83F4165292F23A98D /* Gauge+Animations.swift */; };
+		20610980A09230A5B18F7EBF768651A4 /* ZMMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8F7E13031906BFC3E4A47BC2907D8 /* ZMMenuItem.swift */; };
 		23113F710889BEE38AF8208E34626D5F /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2CCA1C01879462C75EAA384AC9681 /* SideMenuTransition.swift */; };
-		300469C5BF7600A4641EE35472E37602 /* ZMMenuTableBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B52A2B92AB56FE6938C02B85A314FF /* ZMMenuTableBackgroundView.swift */; };
-		320530125B2C4503B944B55B30CAD592 /* ZMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D29CBA21BEEBB5B7D2400DEEAA709 /* ZMGaugeView.swift */; };
-		3330F73CC142B48366F207B8E5D455D4 /* ZMMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D99E1C41968D7A5B662F03EFCCB429 /* ZMMenuTableViewController.swift */; };
-		385413D35748A8113379E5F4539C540B /* ZMMenuTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E18DE603AB8351B98F93132F24D2DCE6 /* ZMMenuTableCell.xib */; };
+		341C7F03C44BC52E4E2362E056E95DBC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D341580B7DC07E772F50236C5598B /* CoreDataStack.swift */; };
+		385413D35748A8113379E5F4539C540B /* ZMMenuTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F7430181D6F6882097815FD24F7C4E /* ZMMenuTableCell.xib */; };
 		45B1E58CA73ED11C40CF8464704FA3BE /* UIColor+Blend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274523064A54B1DE3F12F62ED6B50B11 /* UIColor+Blend.swift */; };
 		48B15D0B0D855B5F3DBFC0AD9EFC0478 /* CAShapeLayer+oval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5A6128BA17ACD127509A6EA6FB3E6 /* CAShapeLayer+oval.swift */; };
-		4AAACA8F68F50BEE96B581322E98E60A /* ZMMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D0E651F98E70F12A1402A17654BFD /* ZMMenuItems.swift */; };
-		4B6CE694C3149602B71AFD5F9645ADE6 /* ZMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6DA5FA4D08BBF7C2BE02D1309059 /* ZMUtilities.swift */; };
+		4E1E54C1AA2D58DFDC9C26AF9BC77D79 /* ZMMenuTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FBF432E806FA78A442A486D5F83D /* ZMMenuTableFooterView.swift */; };
 		50454C7F4C8D0780A0003361164B2299 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577BAE82338F8E7F7FA4A69497CFC9C /* SideMenuManager.swift */; };
-		532E51DBE0F055895749D0ECE7F3D6ED /* ZMAcknowledgementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17492562D556DFBB19D4F764C2D22B6C /* ZMAcknowledgementsViewController.swift */; };
-		57E8AB2A438B5113601F9696D0DB7D92 /* ZMMenuTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08725C71690EF7A0D1DB30A014EFAA48 /* ZMMenuTableHeaderView.xib */; };
+		57E8AB2A438B5113601F9696D0DB7D92 /* ZMMenuTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4AADB5418F83E91C11B0156DEDDC1BB /* ZMMenuTableHeaderView.xib */; };
+		62F409615B55986154A8FC657DEF174D /* CoreDataNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11770348AB51D6B6A4AD8B140C13AEC3 /* CoreDataNSObject.swift */; };
 		6391CDCB38F2381231D7FD7610FE529B /* GaugeHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EFAE1A326557EE1A465C3D1E8CE4AD /* GaugeHalf.swift */; };
 		667AFE9403651FF23C3F645B4C9BCB52 /* Pods-ZMAppFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D91DCA08ACAFBD094366CF25E363A4 /* Pods-ZMAppFoundation_Tests-dummy.m */; };
 		6AACA604D04428D6C7652466E7124133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */; };
+		6AC2130AC518F54DF7EAD40B166871DE /* ZMAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9923B441FD86EF8F943B3250A3939D6 /* ZMAppDelegate.swift */; };
 		6ECC67BB7F3657C41DE4490599359CC3 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC43647F2A849507E4B19E7D9B3ACC4 /* UISideMenuNavigationController.swift */; };
 		6F34CE641F1E41DD645EBC9AC63F4DD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C51F1AE943E99EDA699F56E8DB5C03 /* QuartzCore.framework */; };
 		6F6876A5155D6F1B44D0BF041115BDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */; };
-		768557D811D57D053874F63A6251A786 /* ZMAppFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709E0A2DF85B440FE811D8D3591DEC63 /* ZMAppFoundation-dummy.m */; };
-		8558013495B199B91B4CE62A07D6188D /* ZMPieTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4FB863255554FABC303F1B27BEAF8B /* ZMPieTimerView.swift */; };
-		861D956765E46CD8F3B8D01E53126E86 /* ZMMenuTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA58C3989766C10D2A6250153FAEC /* ZMMenuTableHeaderView.swift */; };
-		8E687C136B2706252708756FCE7D5162 /* ZMMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B2EBA17F84CD765147CE074694BF9 /* ZMMenuTableCell.swift */; };
+		79C2567080B6EDDCF9B6CE861B1B87F4 /* CoreDataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6401B4A63CD35373B44067DC144BB /* CoreDataCollectionViewController.swift */; };
+		8A7AA2D190C17CD68E0FFD028817D2F6 /* ZMPieTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308384CA39E4F1BCC646BBAC5358EBA /* ZMPieTimerView.swift */; };
 		919D1421C1234A54B5512ADFDD5AEE44 /* GaugeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B4DF2460B03DC7732A4AFDBEE11135 /* GaugeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		959E5CF2CDD36F26476F7EF09AE129D8 /* ZMAppFoundation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BF7186420344BCD8B7C3B9C3F7BA51 /* ZMAppFoundation.storyboard */; };
+		959E5CF2CDD36F26476F7EF09AE129D8 /* ZMAppFoundation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF16219E691AC38A14AF493F6C47704 /* ZMAppFoundation.storyboard */; };
+		989DBE106CAEE89C8C4196691C9C0B56 /* ZMMenuTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB65380C5C01DFD27266CBA325E520 /* ZMMenuTableHeaderView.swift */; };
 		99420379BAF664058B6978390651416F /* Pods-ZMAppFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7F14CFA6A3EA2D69624CC0303B2337 /* Pods-ZMAppFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC5A1EF69FF97F5FFAFE0671344AB77 /* ZMMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DF0C23B3326668A4250087C7B741AB /* ZMMenuTableViewController.swift */; };
 		9DBC9BBE007724859996675C4FF1B1D5 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 81A77462FF41EB8E52E825AA80DF9BAC /* Info.plist */; };
 		9E38872198814FA06262C38A8B208245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */; };
+		A2701C647ECB40BD5E8E7C2C08277621 /* ZMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E6A5152A06DAD552A2E2F88A301F7C /* ZMGaugeView.swift */; };
 		AC779756F988D5BF44F0E46F3932A57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */; };
-		B48F6E9689A94ADB6FE4D143969CD26E /* ZMMenuTableBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C410D63A70280310856809B547C5830A /* ZMMenuTableBackgroundView.xib */; };
+		B03A5E928E8E235CB34A91667880A2A5 /* ZMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09894B7601E9164B570D589AA077E9B0 /* ZMUtilities.swift */; };
+		B37A8C79B2F2BB174B99137F7033B77D /* ZMAppFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E046544CBAB5BAC48E4F0BA353DD41 /* ZMAppFoundation-dummy.m */; };
+		B48F6E9689A94ADB6FE4D143969CD26E /* ZMMenuTableBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65011B9F23AE8C82873BEDC36B42212C /* ZMMenuTableBackgroundView.xib */; };
 		B582C182E90DFB18B176AF223C9BA101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB9C94219D468AE32F571EF99D6BDC /* UIKit.framework */; };
+		B59E040CD8483A2D83B112FDE5274DAE /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26946939776051F75C9F1B4100AB8A3E /* CoreDataTableViewController.swift */; };
 		B80AE43653A7AE95E57ED780DE11038F /* Pods-ZMAppFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A91FAC340D18BC52440675AD6D34F9 /* Pods-ZMAppFoundation_Example-dummy.m */; };
-		C96A4FEFBF7544D0949828591342CE08 /* ZMMenuTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D91EC549F86F4A67DB72BB14EB2AA6A /* ZMMenuTableFooterView.xib */; };
+		C96A4FEFBF7544D0949828591342CE08 /* ZMMenuTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D8679C125DC3AE5D2E05636F34AAD7 /* ZMMenuTableFooterView.xib */; };
+		D36627588559D61CBFD25C338936610D /* ZMMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0D6BA370EB424D51432C26F79C968 /* ZMMenuTableCell.swift */; };
 		D60BD23080C9177E8A62DE46010C7DF3 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5820319AAF0BF3D87F2A8814B8397B /* SideMenu.framework */; };
 		E07AA5ED9DB838AC5A34EC9938C75E86 /* Pods-ZMAppFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E4B1A827E50EBCB47263F2A00F4C22 /* Pods-ZMAppFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4BE531B31B4F75633072124498B3767 /* GaugeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAFF1DE4CC8351D2998DAD9D75FCE5 /* GaugeCircle.swift */; };
+		E63829E25669F0D6603100E7B50E0FF6 /* ZMMenuTableBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760570A63DE447640FEBCDE0B6F99779 /* ZMMenuTableBackgroundView.swift */; };
 		EB2586672ECB9EE8154E40FA35B54746 /* GaugeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313EE5007EFC954A00639F4D2845ABA /* GaugeKit-dummy.m */; };
 		EB3054C10F456B8DE1854C96A208C957 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B82240FAC860684E4F7A5B2E4A4EF476 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBE69F0B5633AC592CD4E148E50D8635 /* ZMProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1D06291A096433E101A5F38657803 /* ZMProtocols.swift */; };
-		F63D1213210511C000CE8C56 /* ZMAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D120D210511BE00CE8C56 /* ZMAppDelegate.swift */; };
-		F63D1214210511C000CE8C56 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D120E210511BF00CE8C56 /* CoreDataStack.swift */; };
-		F63D1215210511C000CE8C56 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D120F210511BF00CE8C56 /* CoreDataViewController.swift */; };
-		F63D1216210511C000CE8C56 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D1210210511BF00CE8C56 /* CoreDataTableViewController.swift */; };
-		F63D1217210511C000CE8C56 /* CoreDataCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D1211210511BF00CE8C56 /* CoreDataCollectionViewController.swift */; };
-		F63D1218210511C000CE8C56 /* CoreDataNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63D1212210511C000CE8C56 /* CoreDataNSObject.swift */; };
-		F678D75920FD8DEF00B2770A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678D75820FD8DEF00B2770A /* Secrets.swift */; };
-		F772FB6D1B77151EEF1CF9774D81D7FA /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5FAE196EB796B524DCF2C011BB6BBC /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8B3C032F19DE6B6E4CE945D401EE38 /* ZMProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785C7884F9FD4255DF19DC5DD1824F5 /* ZMProtocols.swift */; };
+		F772FB6D1B77151EEF1CF9774D81D7FA /* ZMAppFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0669A080AA1B3285CA2323C679AFB5 /* ZMAppFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C4C0194ECB28F5F807BBC976733949 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B285903955ACE0B15DE173E7B3BEEC /* CoreDataViewController.swift */; };
+		F93218D6AD29A39873615BA2E9AF1B1D /* ZMAcknowledgementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19E19A6077C4F809C10E351F47E468 /* ZMAcknowledgementsViewController.swift */; };
 		FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6F094B56DFEC888F627AE6C4C553DA /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -115,94 +115,94 @@
 /* Begin PBXFileReference section */
 		025E8D21D1F6F023135257F622868E83 /* ZMAppFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMAppFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		050A8BDE2FF4FAEF1168B462D3D58E57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E046544CBAB5BAC48E4F0BA353DD41 /* ZMAppFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMAppFoundation-dummy.m"; sourceTree = "<group>"; };
 		07BED07500343A15845194B9199B40DD /* Pods-ZMAppFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		08725C71690EF7A0D1DB30A014EFAA48 /* ZMMenuTableHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableHeaderView.xib; path = ZMAppFoundation/Assets/ZMMenuTableHeaderView.xib; sourceTree = "<group>"; };
+		07F7430181D6F6882097815FD24F7C4E /* ZMMenuTableCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableCell.xib; path = ZMAppFoundation/Assets/ZMMenuTableCell.xib; sourceTree = "<group>"; };
+		09894B7601E9164B570D589AA077E9B0 /* ZMUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMUtilities.swift; path = ZMAppFoundation/Classes/ZMUtilities.swift; sourceTree = "<group>"; };
+		0C6414B9DCA3744140D2A0C3EC0F9F60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0DC43647F2A849507E4B19E7D9B3ACC4 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
 		10807E8C451D370DFAC6F1D2E96BAA65 /* Pods-ZMAppFoundation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		10BB80B75EE4FEA011F558130F782836 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZMAppFoundation/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		10D91DCA08ACAFBD094366CF25E363A4 /* Pods-ZMAppFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMAppFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
-		17492562D556DFBB19D4F764C2D22B6C /* ZMAcknowledgementsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMAcknowledgementsViewController.swift; path = ZMAppFoundation/Classes/ZMAcknowledgementsViewController.swift; sourceTree = "<group>"; };
+		11770348AB51D6B6A4AD8B140C13AEC3 /* CoreDataNSObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataNSObject.swift; path = ZMAppFoundation/Classes/CoreDataNSObject.swift; sourceTree = "<group>"; };
+		1308384CA39E4F1BCC646BBAC5358EBA /* ZMPieTimerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMPieTimerView.swift; path = ZMAppFoundation/Classes/ZMPieTimerView.swift; sourceTree = "<group>"; };
+		14E6A5152A06DAD552A2E2F88A301F7C /* ZMGaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMGaugeView.swift; path = ZMAppFoundation/Classes/ZMGaugeView.swift; sourceTree = "<group>"; };
 		18EB9C94219D468AE32F571EF99D6BDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1A5820319AAF0BF3D87F2A8814B8397B /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B46D25B119B47BFAB4D39E32CEB95FC /* ZMAppFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-prefix.pch"; sourceTree = "<group>"; };
-		1DFCA58C3989766C10D2A6250153FAEC /* ZMMenuTableHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableHeaderView.swift; sourceTree = "<group>"; };
 		1FB891AC84B0FB58662DAFCC4B7D4D43 /* Pods-ZMAppFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMAppFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		20DF0C23B3326668A4250087C7B741AB /* ZMMenuTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMMenuTableViewController.swift; path = ZMAppFoundation/Classes/ZMMenuTableViewController.swift; sourceTree = "<group>"; };
 		21820A17434D991B9D72F205F43F465E /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		26946939776051F75C9F1B4100AB8A3E /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataTableViewController.swift; path = ZMAppFoundation/Classes/CoreDataTableViewController.swift; sourceTree = "<group>"; };
 		274523064A54B1DE3F12F62ED6B50B11 /* UIColor+Blend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Blend.swift"; path = "GaugeKit/UIColor+Blend.swift"; sourceTree = "<group>"; };
 		2C3137EE969DE092403E293BB924C281 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC2CCA1C01879462C75EAA384AC9681 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
-		33D99E1C41968D7A5B662F03EFCCB429 /* ZMMenuTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMMenuTableViewController.swift; path = ZMAppFoundation/Classes/ZMMenuTableViewController.swift; sourceTree = "<group>"; };
-		350524374F9975C3417BFD29DA08F686 /* ZMMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuItem.swift; sourceTree = "<group>"; };
-		39D16938FB84D9777CE69DC1D8C3C832 /* ZMAppFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMAppFoundation.modulemap; sourceTree = "<group>"; };
+		31C8F7E13031906BFC3E4A47BC2907D8 /* ZMMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuItem.swift; sourceTree = "<group>"; };
+		3813424F1732D8C2BAFB5EDED5D1158C /* ZMAppFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMAppFoundation.xcconfig; sourceTree = "<group>"; };
 		39E666628A7468924C2DC24483437B5E /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
-		3CAF6DA5FA4D08BBF7C2BE02D1309059 /* ZMUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMUtilities.swift; path = ZMAppFoundation/Classes/ZMUtilities.swift; sourceTree = "<group>"; };
-		3D91EC549F86F4A67DB72BB14EB2AA6A /* ZMMenuTableFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableFooterView.xib; path = ZMAppFoundation/Assets/ZMMenuTableFooterView.xib; sourceTree = "<group>"; };
+		3C24FBF432E806FA78A442A486D5F83D /* ZMMenuTableFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableFooterView.swift; sourceTree = "<group>"; };
+		4015B847AF178AB095A68D46CAA4BC17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4060CB758DAE25142A2891AA73073E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A17EB662DECB1548A6FB07380BD52C4 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A493D09AEBE390D5EA106266852FD6C /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
 		4D880DF88B497D6997CDF32266551191 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51855FBD81B465D14C898484FEA68CD9 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZMAppFoundation/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		5313EE5007EFC954A00639F4D2845ABA /* GaugeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GaugeKit-dummy.m"; sourceTree = "<group>"; };
-		57DA938E2D854EEFF1F7546D744B59E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5821E29217DA51B59DA6027DB0B4D159 /* ZMMenuTableFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableFooterView.swift; sourceTree = "<group>"; };
-		5CE0D19EDE853B29218F1D4681404B11 /* ZMAppFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMAppFoundation.xcconfig; sourceTree = "<group>"; };
 		5DEA07129D77FB1CB93873045E72D4D4 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F523573A6BAFEA912928C84D3E85271 /* Pods-ZMAppFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMAppFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		60D0A34831B28E05EFE5EBBEB8700963 /* Pods-ZMAppFoundation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Tests-resources.sh"; sourceTree = "<group>"; };
+		65011B9F23AE8C82873BEDC36B42212C /* ZMMenuTableBackgroundView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableBackgroundView.xib; path = ZMAppFoundation/Assets/ZMMenuTableBackgroundView.xib; sourceTree = "<group>"; };
 		6577BAE82338F8E7F7FA4A69497CFC9C /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
 		6689971C4B14BCC83F4165292F23A98D /* Gauge+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gauge+Animations.swift"; path = "GaugeKit/Gauge+Animations.swift"; sourceTree = "<group>"; };
-		674D0E651F98E70F12A1402A17654BFD /* ZMMenuItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuItems.swift; sourceTree = "<group>"; };
 		67A5A6128BA17ACD127509A6EA6FB3E6 /* CAShapeLayer+oval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+oval.swift"; path = "GaugeKit/CAShapeLayer+oval.swift"; sourceTree = "<group>"; };
 		6C33D6D60B0CFC8706F4B6DAC3841EF2 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
-		709E0A2DF85B440FE811D8D3591DEC63 /* ZMAppFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMAppFoundation-dummy.m"; sourceTree = "<group>"; };
-		70B52A2B92AB56FE6938C02B85A314FF /* ZMMenuTableBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableBackgroundView.swift; sourceTree = "<group>"; };
+		760570A63DE447640FEBCDE0B6F99779 /* ZMMenuTableBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableBackgroundView.swift; sourceTree = "<group>"; };
 		77D3B6A389E3EED459C97ACB6B591F96 /* GaugeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GaugeKit.xcconfig; sourceTree = "<group>"; };
 		782BA36EA23E09DE42F8B0D500DB8E4B /* Pods-ZMAppFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8076334321CF25A52496BDA082A9F8D0 /* Pods_ZMAppFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A77462FF41EB8E52E825AA80DF9BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = GaugeKit/Info.plist; sourceTree = "<group>"; };
-		81D3FB5732748438B1736AC5BF338985 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8650EEA24BFA11402EDAF5331C4D5605 /* Gauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gauge.swift; path = GaugeKit/Gauge.swift; sourceTree = "<group>"; };
-		886E22C3FC2179D49EEC92180DA9CCF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		88AC8B472C44136F1EB2356909F53B83 /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMAppFoundation/Assets/ZMGauge.xib; sourceTree = "<group>"; };
 		8B7F14CFA6A3EA2D69624CC0303B2337 /* Pods-ZMAppFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMAppFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		92B4DF2460B03DC7732A4AFDBEE11135 /* GaugeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95FAFF1DE4CC8351D2998DAD9D75FCE5 /* GaugeCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeCircle.swift; path = GaugeKit/GaugeCircle.swift; sourceTree = "<group>"; };
 		9D904AE4BC3ECCDD6DA8AD74DC7E23B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9F6D29CBA21BEEBB5B7D2400DEEAA709 /* ZMGaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMGaugeView.swift; path = ZMAppFoundation/Classes/ZMGaugeView.swift; sourceTree = "<group>"; };
+		9E0669A080AA1B3285CA2323C679AFB5 /* ZMAppFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-umbrella.h"; sourceTree = "<group>"; };
+		A1E8F6F8A3874AC9165D74BDA71C0F5A /* ZMAppFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMAppFoundation.modulemap; sourceTree = "<group>"; };
 		A2A337E12C6D34497875FB4D90E20B29 /* Pods-ZMAppFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMAppFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		A3711ADB113FDEB8DE68A03E6F2C3AA0 /* Pods-ZMAppFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMAppFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7A2738405CE270C4A2F8049FA799992 /* ZMAppFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZMAppFoundation.podspec; sourceTree = "<group>"; };
+		A47D341580B7DC07E772F50236C5598B /* CoreDataStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A4AADB5418F83E91C11B0156DEDDC1BB /* ZMMenuTableHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableHeaderView.xib; path = ZMAppFoundation/Assets/ZMMenuTableHeaderView.xib; sourceTree = "<group>"; };
+		A7DB65380C5C01DFD27266CBA325E520 /* ZMMenuTableHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableHeaderView.swift; sourceTree = "<group>"; };
 		A84152A184BAA78083A8BF079A58F934 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA4FB863255554FABC303F1B27BEAF8B /* ZMPieTimerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMPieTimerView.swift; path = ZMAppFoundation/Classes/ZMPieTimerView.swift; sourceTree = "<group>"; };
+		A9923B441FD86EF8F943B3250A3939D6 /* ZMAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMAppDelegate.swift; path = ZMAppFoundation/Classes/ZMAppDelegate.swift; sourceTree = "<group>"; };
+		AB5987E83256D75C3D9CB5693AA6375F /* Secrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ZMAppFoundation/Classes/Secrets.swift; sourceTree = "<group>"; };
+		ACF7E4E693BFD0DB8A65AB95D084FD7B /* ZMMenuItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuItems.swift; sourceTree = "<group>"; };
 		AD6D71DD24E1E33693DE7EFB704E81FD /* Pods-ZMAppFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ADB2ADCA0E234D30D993E9FFD8E0801F /* Pods-ZMAppFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMAppFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5BEBD70CB069FA6A56736DB8A77F929 /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMAppFoundation/Assets/ZMGauge.xib; sourceTree = "<group>"; };
 		B6EFAE1A326557EE1A465C3D1E8CE4AD /* GaugeHalf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeHalf.swift; path = GaugeKit/GaugeHalf.swift; sourceTree = "<group>"; };
 		B82240FAC860684E4F7A5B2E4A4EF476 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
 		B8BB36914DB32D3D205414C34407A230 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 		BAFD9990E0911E0C3A33CF1CFDF6513B /* Pods-ZMAppFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Example-resources.sh"; sourceTree = "<group>"; };
-		C0BF7186420344BCD8B7C3B9C3F7BA51 /* ZMAppFoundation.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ZMAppFoundation.storyboard; path = ZMAppFoundation/Assets/ZMAppFoundation.storyboard; sourceTree = "<group>"; };
-		C410D63A70280310856809B547C5830A /* ZMMenuTableBackgroundView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableBackgroundView.xib; path = ZMAppFoundation/Assets/ZMMenuTableBackgroundView.xib; sourceTree = "<group>"; };
+		C4B6401B4A63CD35373B44067DC144BB /* CoreDataCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreDataCollectionViewController.swift; sourceTree = "<group>"; };
 		C6C51F1AE943E99EDA699F56E8DB5C03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		CA5FAE196EB796B524DCF2C011BB6BBC /* ZMAppFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-umbrella.h"; sourceTree = "<group>"; };
+		C7D8679C125DC3AE5D2E05636F34AAD7 /* ZMMenuTableFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableFooterView.xib; path = ZMAppFoundation/Assets/ZMMenuTableFooterView.xib; sourceTree = "<group>"; };
 		CB3FB5DEEDCF9BE4AD8719AB8C823C7C /* Pods_ZMAppFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMAppFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDCFD177F16FF9F7C48AB70A940D03D /* Pods-ZMAppFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMAppFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF0B2EBA17F84CD765147CE074694BF9 /* ZMMenuTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableCell.swift; sourceTree = "<group>"; };
+		D329BBA79A51C516EC84DB876DA87CAF /* ZMAppFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMAppFoundation-prefix.pch"; sourceTree = "<group>"; };
 		D6E4B1A827E50EBCB47263F2A00F4C22 /* Pods-ZMAppFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMAppFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB19E19A6077C4F809C10E351F47E468 /* ZMAcknowledgementsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMAcknowledgementsViewController.swift; path = ZMAppFoundation/Classes/ZMAcknowledgementsViewController.swift; sourceTree = "<group>"; };
 		DD56DA05EED5554BA7DAEF1468EB7B63 /* GaugeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-prefix.pch"; sourceTree = "<group>"; };
 		DE6F094B56DFEC888F627AE6C4C553DA /* GaugeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GaugeKit.h; path = GaugeKit/GaugeKit.h; sourceTree = "<group>"; };
-		E18DE603AB8351B98F93132F24D2DCE6 /* ZMMenuTableCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMMenuTableCell.xib; path = ZMAppFoundation/Assets/ZMMenuTableCell.xib; sourceTree = "<group>"; };
+		E2B285903955ACE0B15DE173E7B3BEEC /* CoreDataViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataViewController.swift; path = ZMAppFoundation/Classes/CoreDataViewController.swift; sourceTree = "<group>"; };
+		E6F0D6BA370EB424D51432C26F79C968 /* ZMMenuTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZMMenuTableCell.swift; sourceTree = "<group>"; };
 		E7A91FAC340D18BC52440675AD6D34F9 /* Pods-ZMAppFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMAppFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		E921523DA72F427F7B228646E94F08DC /* GaugeLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeLine.swift; path = GaugeKit/GaugeLine.swift; sourceTree = "<group>"; };
 		E92622A1BC73467814A0398BFCC0C320 /* GaugeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GaugeKit.modulemap; sourceTree = "<group>"; };
-		F4C1D06291A096433E101A5F38657803 /* ZMProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMProtocols.swift; path = ZMAppFoundation/Classes/ZMProtocols.swift; sourceTree = "<group>"; };
-		F63D120D210511BE00CE8C56 /* ZMAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZMAppDelegate.swift; path = ZMAppFoundation/Classes/ZMAppDelegate.swift; sourceTree = "<group>"; };
-		F63D120E210511BF00CE8C56 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStack.swift; path = ZMAppFoundation/Classes/CoreDataStack.swift; sourceTree = "<group>"; };
-		F63D120F210511BF00CE8C56 /* CoreDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataViewController.swift; path = ZMAppFoundation/Classes/CoreDataViewController.swift; sourceTree = "<group>"; };
-		F63D1210210511BF00CE8C56 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataTableViewController.swift; path = ZMAppFoundation/Classes/CoreDataTableViewController.swift; sourceTree = "<group>"; };
-		F63D1211210511BF00CE8C56 /* CoreDataCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataCollectionViewController.swift; path = ZMAppFoundation/Classes/CoreDataCollectionViewController.swift; sourceTree = "<group>"; };
-		F63D1212210511C000CE8C56 /* CoreDataNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataNSObject.swift; path = ZMAppFoundation/Classes/CoreDataNSObject.swift; sourceTree = "<group>"; };
-		F678D75820FD8DEF00B2770A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ZMAppFoundation/Classes/Secrets.swift; sourceTree = "<group>"; };
+		EBF16219E691AC38A14AF493F6C47704 /* ZMAppFoundation.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ZMAppFoundation.storyboard; path = ZMAppFoundation/Assets/ZMAppFoundation.storyboard; sourceTree = "<group>"; };
 		F6FEA35BF4473AC0B9E251C533C8A585 /* Pods-ZMAppFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMAppFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F785C7884F9FD4255DF19DC5DD1824F5 /* ZMProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMProtocols.swift; path = ZMAppFoundation/Classes/ZMProtocols.swift; sourceTree = "<group>"; };
+		F921BF212D0898569117048C34346437 /* ZMAppFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZMAppFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB97A5C772C425973339B9F4EC79659A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBDF745CD13B2F0628A6879B6373474 /* Pods-ZMAppFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMAppFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -266,31 +266,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16AA88E0E50F5A1949336E270DDBF2D7 /* ZMAppFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				F63D1211210511BF00CE8C56 /* CoreDataCollectionViewController.swift */,
-				F63D1212210511C000CE8C56 /* CoreDataNSObject.swift */,
-				F63D120E210511BF00CE8C56 /* CoreDataStack.swift */,
-				F63D1210210511BF00CE8C56 /* CoreDataTableViewController.swift */,
-				F63D120F210511BF00CE8C56 /* CoreDataViewController.swift */,
-				F63D120D210511BE00CE8C56 /* ZMAppDelegate.swift */,
-				17492562D556DFBB19D4F764C2D22B6C /* ZMAcknowledgementsViewController.swift */,
-				9F6D29CBA21BEEBB5B7D2400DEEAA709 /* ZMGaugeView.swift */,
-				33D99E1C41968D7A5B662F03EFCCB429 /* ZMMenuTableViewController.swift */,
-				AA4FB863255554FABC303F1B27BEAF8B /* ZMPieTimerView.swift */,
-				F4C1D06291A096433E101A5F38657803 /* ZMProtocols.swift */,
-				3CAF6DA5FA4D08BBF7C2BE02D1309059 /* ZMUtilities.swift */,
-				32EEBF7D5838AA02F2D268FDF8EE575D /* Pod */,
-				C81E0F7C8AF10A3FAF993DA19AB4BC47 /* Resources */,
-				47BFA07824985F939BA8C43DD64E1E03 /* Support Files */,
-				8E9290E554F24B1C492B9582648EA9CB /* TableViewCells */,
-				F678D75820FD8DEF00B2770A /* Secrets.swift */,
-			);
-			name = ZMAppFoundation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1D32840F9F5B08C0517404BC668EC17E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,16 +298,6 @@
 			path = "Target Support Files/Pods-ZMAppFoundation_Example";
 			sourceTree = "<group>";
 		};
-		32EEBF7D5838AA02F2D268FDF8EE575D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				886E22C3FC2179D49EEC92180DA9CCF8 /* LICENSE */,
-				57DA938E2D854EEFF1F7546D744B59E1 /* README.md */,
-				A7A2738405CE270C4A2F8049FA799992 /* ZMAppFoundation.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		35F575BDA181B7DC8A88C5421CFD67A5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +312,14 @@
 			path = "../Target Support Files/SideMenu";
 			sourceTree = "<group>";
 		};
+		41BF0996F08AE46D5466C42C96FC6263 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F83764779A47D1C93D060E74CA0B3EE0 /* ZMAppFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		46F6A74BDEC31A77AEFF832FD361D550 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,28 +328,6 @@
 				18EB9C94219D468AE32F571EF99D6BDC /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		47BFA07824985F939BA8C43DD64E1E03 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				81D3FB5732748438B1736AC5BF338985 /* Info.plist */,
-				39D16938FB84D9777CE69DC1D8C3C832 /* ZMAppFoundation.modulemap */,
-				5CE0D19EDE853B29218F1D4681404B11 /* ZMAppFoundation.xcconfig */,
-				709E0A2DF85B440FE811D8D3591DEC63 /* ZMAppFoundation-dummy.m */,
-				1B46D25B119B47BFAB4D39E32CEB95FC /* ZMAppFoundation-prefix.pch */,
-				CA5FAE196EB796B524DCF2C011BB6BBC /* ZMAppFoundation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZMAppFoundation";
-			sourceTree = "<group>";
-		};
-		49E1B5FA14FFECB086118681F6609F25 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16AA88E0E50F5A1949336E270DDBF2D7 /* ZMAppFoundation */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E5FDE4486D2D6D3878BAD43CF3391B1 /* Pods */ = {
@@ -405,11 +356,25 @@
 			path = GaugeKit;
 			sourceTree = "<group>";
 		};
+		7B237F78F62A49D538A274D5B47546A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10BB80B75EE4FEA011F558130F782836 /* Assets.xcassets */,
+				EBF16219E691AC38A14AF493F6C47704 /* ZMAppFoundation.storyboard */,
+				B5BEBD70CB069FA6A56736DB8A77F929 /* ZMGauge.xib */,
+				65011B9F23AE8C82873BEDC36B42212C /* ZMMenuTableBackgroundView.xib */,
+				07F7430181D6F6882097815FD24F7C4E /* ZMMenuTableCell.xib */,
+				C7D8679C125DC3AE5D2E05636F34AAD7 /* ZMMenuTableFooterView.xib */,
+				A4AADB5418F83E91C11B0156DEDDC1BB /* ZMMenuTableHeaderView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				49E1B5FA14FFECB086118681F6609F25 /* Development Pods */,
+				41BF0996F08AE46D5466C42C96FC6263 /* Development Pods */,
 				8309AE13C661BD050047D5CF57D0354B /* Frameworks */,
 				5E5FDE4486D2D6D3878BAD43CF3391B1 /* Pods */,
 				13508A60E87C00E555DDDDAFF82078C8 /* Products */,
@@ -427,18 +392,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8E9290E554F24B1C492B9582648EA9CB /* TableViewCells */ = {
+		92315BF16F834E2EA010632F612D9786 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				350524374F9975C3417BFD29DA08F686 /* ZMMenuItem.swift */,
-				674D0E651F98E70F12A1402A17654BFD /* ZMMenuItems.swift */,
-				70B52A2B92AB56FE6938C02B85A314FF /* ZMMenuTableBackgroundView.swift */,
-				CF0B2EBA17F84CD765147CE074694BF9 /* ZMMenuTableCell.swift */,
-				5821E29217DA51B59DA6027DB0B4D159 /* ZMMenuTableFooterView.swift */,
-				1DFCA58C3989766C10D2A6250153FAEC /* ZMMenuTableHeaderView.swift */,
+				C4B6401B4A63CD35373B44067DC144BB /* CoreDataCollectionViewController.swift */,
+				A47D341580B7DC07E772F50236C5598B /* CoreDataStack.swift */,
 			);
-			name = TableViewCells;
-			path = ZMAppFoundation/Classes/TableViewCells;
+			name = CoreData;
+			path = ZMAppFoundation/Classes/CoreData;
 			sourceTree = "<group>";
 		};
 		9E6044DA0527862821B4B3E3F3CE5945 /* Pods-ZMAppFoundation_Tests */ = {
@@ -459,20 +420,6 @@
 			path = "Target Support Files/Pods-ZMAppFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		C81E0F7C8AF10A3FAF993DA19AB4BC47 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				51855FBD81B465D14C898484FEA68CD9 /* Assets.xcassets */,
-				C0BF7186420344BCD8B7C3B9C3F7BA51 /* ZMAppFoundation.storyboard */,
-				88AC8B472C44136F1EB2356909F53B83 /* ZMGauge.xib */,
-				C410D63A70280310856809B547C5830A /* ZMMenuTableBackgroundView.xib */,
-				E18DE603AB8351B98F93132F24D2DCE6 /* ZMMenuTableCell.xib */,
-				3D91EC549F86F4A67DB72BB14EB2AA6A /* ZMMenuTableFooterView.xib */,
-				08725C71690EF7A0D1DB30A014EFAA48 /* ZMMenuTableHeaderView.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		DD2D20F1E25FF368EC0E88C72410FE51 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,6 +432,40 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		E492A668B9519CA00E4FD35BE20BFDD4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C6414B9DCA3744140D2A0C3EC0F9F60 /* LICENSE */,
+				4015B847AF178AB095A68D46CAA4BC17 /* README.md */,
+				F921BF212D0898569117048C34346437 /* ZMAppFoundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F83764779A47D1C93D060E74CA0B3EE0 /* ZMAppFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				11770348AB51D6B6A4AD8B140C13AEC3 /* CoreDataNSObject.swift */,
+				26946939776051F75C9F1B4100AB8A3E /* CoreDataTableViewController.swift */,
+				E2B285903955ACE0B15DE173E7B3BEEC /* CoreDataViewController.swift */,
+				AB5987E83256D75C3D9CB5693AA6375F /* Secrets.swift */,
+				DB19E19A6077C4F809C10E351F47E468 /* ZMAcknowledgementsViewController.swift */,
+				A9923B441FD86EF8F943B3250A3939D6 /* ZMAppDelegate.swift */,
+				14E6A5152A06DAD552A2E2F88A301F7C /* ZMGaugeView.swift */,
+				20DF0C23B3326668A4250087C7B741AB /* ZMMenuTableViewController.swift */,
+				1308384CA39E4F1BCC646BBAC5358EBA /* ZMPieTimerView.swift */,
+				F785C7884F9FD4255DF19DC5DD1824F5 /* ZMProtocols.swift */,
+				09894B7601E9164B570D589AA077E9B0 /* ZMUtilities.swift */,
+				92315BF16F834E2EA010632F612D9786 /* CoreData */,
+				E492A668B9519CA00E4FD35BE20BFDD4 /* Pod */,
+				7B237F78F62A49D538A274D5B47546A0 /* Resources */,
+				FFABF27F83C4F6BE98EAB52133F07904 /* Support Files */,
+				FF0A13083351C5F0B922C50CF8F02F14 /* TableViewCells */,
+			);
+			name = ZMAppFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		FEFE3C96878603FCD9B69494F80032FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +473,34 @@
 				9E6044DA0527862821B4B3E3F3CE5945 /* Pods-ZMAppFoundation_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF0A13083351C5F0B922C50CF8F02F14 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				31C8F7E13031906BFC3E4A47BC2907D8 /* ZMMenuItem.swift */,
+				ACF7E4E693BFD0DB8A65AB95D084FD7B /* ZMMenuItems.swift */,
+				760570A63DE447640FEBCDE0B6F99779 /* ZMMenuTableBackgroundView.swift */,
+				E6F0D6BA370EB424D51432C26F79C968 /* ZMMenuTableCell.swift */,
+				3C24FBF432E806FA78A442A486D5F83D /* ZMMenuTableFooterView.swift */,
+				A7DB65380C5C01DFD27266CBA325E520 /* ZMMenuTableHeaderView.swift */,
+			);
+			name = TableViewCells;
+			path = ZMAppFoundation/Classes/TableViewCells;
+			sourceTree = "<group>";
+		};
+		FFABF27F83C4F6BE98EAB52133F07904 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB97A5C772C425973339B9F4EC79659A /* Info.plist */,
+				A1E8F6F8A3874AC9165D74BDA71C0F5A /* ZMAppFoundation.modulemap */,
+				3813424F1732D8C2BAFB5EDED5D1158C /* ZMAppFoundation.xcconfig */,
+				06E046544CBAB5BAC48E4F0BA353DD41 /* ZMAppFoundation-dummy.m */,
+				D329BBA79A51C516EC84DB876DA87CAF /* ZMAppFoundation-prefix.pch */,
+				9E0669A080AA1B3285CA2323C679AFB5 /* ZMAppFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZMAppFoundation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,7 +591,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF57CCA937CF21658ADCC07EA8CF2297 /* Build configuration list for PBXNativeTarget "ZMAppFoundation" */;
 			buildPhases = (
-				6E42043435641DDB4B30216849190CF5 /* Sources */,
+				848B626A302E2597F48E04AD0496A43A /* Sources */,
 				EDBEEE76FBD9E54474D154FDA0CB5422 /* Frameworks */,
 				5F95A8E0A9F7CA92A0D30A4038ADB803 /* Resources */,
 				58E0601ADF1027354B2D02AAFBF4FF66 /* Headers */,
@@ -647,6 +656,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -693,30 +703,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E42043435641DDB4B30216849190CF5 /* Sources */ = {
+		848B626A302E2597F48E04AD0496A43A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532E51DBE0F055895749D0ECE7F3D6ED /* ZMAcknowledgementsViewController.swift in Sources */,
-				768557D811D57D053874F63A6251A786 /* ZMAppFoundation-dummy.m in Sources */,
-				320530125B2C4503B944B55B30CAD592 /* ZMGaugeView.swift in Sources */,
-				0BEF099460A54084D54B44DBA587EF95 /* ZMMenuItem.swift in Sources */,
-				F63D1213210511C000CE8C56 /* ZMAppDelegate.swift in Sources */,
-				4AAACA8F68F50BEE96B581322E98E60A /* ZMMenuItems.swift in Sources */,
-				300469C5BF7600A4641EE35472E37602 /* ZMMenuTableBackgroundView.swift in Sources */,
-				F63D1215210511C000CE8C56 /* CoreDataViewController.swift in Sources */,
-				F63D1216210511C000CE8C56 /* CoreDataTableViewController.swift in Sources */,
-				F63D1214210511C000CE8C56 /* CoreDataStack.swift in Sources */,
-				8E687C136B2706252708756FCE7D5162 /* ZMMenuTableCell.swift in Sources */,
-				11D0A661456C988FD3948417AF81B944 /* ZMMenuTableFooterView.swift in Sources */,
-				F63D1217210511C000CE8C56 /* CoreDataCollectionViewController.swift in Sources */,
-				861D956765E46CD8F3B8D01E53126E86 /* ZMMenuTableHeaderView.swift in Sources */,
-				F678D75920FD8DEF00B2770A /* Secrets.swift in Sources */,
-				3330F73CC142B48366F207B8E5D455D4 /* ZMMenuTableViewController.swift in Sources */,
-				F63D1218210511C000CE8C56 /* CoreDataNSObject.swift in Sources */,
-				8558013495B199B91B4CE62A07D6188D /* ZMPieTimerView.swift in Sources */,
-				EBE69F0B5633AC592CD4E148E50D8635 /* ZMProtocols.swift in Sources */,
-				4B6CE694C3149602B71AFD5F9645ADE6 /* ZMUtilities.swift in Sources */,
+				79C2567080B6EDDCF9B6CE861B1B87F4 /* CoreDataCollectionViewController.swift in Sources */,
+				62F409615B55986154A8FC657DEF174D /* CoreDataNSObject.swift in Sources */,
+				341C7F03C44BC52E4E2362E056E95DBC /* CoreDataStack.swift in Sources */,
+				B59E040CD8483A2D83B112FDE5274DAE /* CoreDataTableViewController.swift in Sources */,
+				F8C4C0194ECB28F5F807BBC976733949 /* CoreDataViewController.swift in Sources */,
+				1904899914017490AE83BEFB689C3420 /* Secrets.swift in Sources */,
+				F93218D6AD29A39873615BA2E9AF1B1D /* ZMAcknowledgementsViewController.swift in Sources */,
+				6AC2130AC518F54DF7EAD40B166871DE /* ZMAppDelegate.swift in Sources */,
+				B37A8C79B2F2BB174B99137F7033B77D /* ZMAppFoundation-dummy.m in Sources */,
+				A2701C647ECB40BD5E8E7C2C08277621 /* ZMGaugeView.swift in Sources */,
+				20610980A09230A5B18F7EBF768651A4 /* ZMMenuItem.swift in Sources */,
+				12714813538769017C4E142039F47B92 /* ZMMenuItems.swift in Sources */,
+				E63829E25669F0D6603100E7B50E0FF6 /* ZMMenuTableBackgroundView.swift in Sources */,
+				D36627588559D61CBFD25C338936610D /* ZMMenuTableCell.swift in Sources */,
+				4E1E54C1AA2D58DFDC9C26AF9BC77D79 /* ZMMenuTableFooterView.swift in Sources */,
+				989DBE106CAEE89C8C4196691C9C0B56 /* ZMMenuTableHeaderView.swift in Sources */,
+				9AC5A1EF69FF97F5FFAFE0671344AB77 /* ZMMenuTableViewController.swift in Sources */,
+				8A7AA2D190C17CD68E0FFD028817D2F6 /* ZMPieTimerView.swift in Sources */,
+				EE8B3C032F19DE6B6E4CE945D401EE38 /* ZMProtocols.swift in Sources */,
+				B03A5E928E8E235CB34A91667880A2A5 /* ZMUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +836,73 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		43A0271929F63B1D5815500FF3F99610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C33D6D60B0CFC8706F4B6DAC3841EF2 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D7B6B75EE5C6D97F2273A61304389F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C33D6D60B0CFC8706F4B6DAC3841EF2 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -948,38 +1025,6 @@
 			};
 			name = Release;
 		};
-		6D250C2C051A59496D457284CC8D6F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C33D6D60B0CFC8706F4B6DAC3841EF2 /* SideMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7DC126735812A77B0C73FE4FAA7AE91D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDBDF745CD13B2F0628A6879B6373474 /* Pods-ZMAppFoundation_Example.release.xcconfig */;
@@ -1016,42 +1061,9 @@
 			};
 			name = Release;
 		};
-		8309D1434D057100CFCB6F6E9A264D79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C33D6D60B0CFC8706F4B6DAC3841EF2 /* SideMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		83BCF4975C6FA5CBDE49E9178E76CDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CE0D19EDE853B29218F1D4681404B11 /* ZMAppFoundation.xcconfig */;
+			baseConfigurationReference = 3813424F1732D8C2BAFB5EDED5D1158C /* ZMAppFoundation.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1153,7 +1165,7 @@
 		};
 		E7C7F0B2C341510B55305445E5D876F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CE0D19EDE853B29218F1D4681404B11 /* ZMAppFoundation.xcconfig */;
+			baseConfigurationReference = 3813424F1732D8C2BAFB5EDED5D1158C /* ZMAppFoundation.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1259,8 +1271,8 @@
 		1684A657EE4E1283E55862F0BE2A309F /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D250C2C051A59496D457284CC8D6F92 /* Debug */,
-				8309D1434D057100CFCB6F6E9A264D79 /* Release */,
+				4D7B6B75EE5C6D97F2273A61304389F4 /* Debug */,
+				43A0271929F63B1D5815500FF3F99610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
